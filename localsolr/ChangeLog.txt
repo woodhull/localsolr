@@ -1,0 +1,103 @@
+$File: $
+Revision 1.1  2007/09/18 03:51:22  pjaol
+------------------
+Updated com.pjaol.search.solr.component.LocalSolrQueryComponent2
+to solrs search component
+Can now be instantiated in solrconfig.xml as
+<!-- local lucene request handler -->
+<searchComponent name="localsolr"     class="com.pjaol.search.solr.component.LocalSolrQueryComponent2" />
+<requestHandler name="geo" class="org.apache.solr.handler.component.SearchHandler">
+    <arr name="components">
+      <str>localsolr</str>
+      <str>facet</str>
+      <str>mlt</str>
+      <str>highlight</str>
+      <str>debug</str>
+    </arr>
+</requestHandler>
+
+
+
+
+------------------
+Updated to the latest version of solr
+Removal of com.pjaol.search.solr.LocalResponseWritter
+LocalSolr now uses solrs native query response writers, this eliminates the need
+for the wt=geoX parameter.
+The configuration for the writer in the solrconfig.xml is no longer needed.
+<!-- local lucene response writer -->
+<queryResponseWriter name="geoX" class="com.pjaol.search.solr.LocalResponseWritter"/>
+
+Can now be removed.
+
+Update of the Cartesian Filter to now accept shapes.
+This can be a first step towards a poly search, furture steps are required
+to create shapes other than a circle.
+
+Fixed a bug where searches of 100 miles + were not generating the right shape.
+Updated the LocalSolrQueryRequestHandler to allow it to be called from solr-281
+searchHandler configuration.
+
+---------------------------------------
+Update of LocalSolrQueryComponent and LocalSolrRequestHandler
+to enable custom latitude longitude fields to be set in the solrconfig.xml with:
+
+ <requestHandler name="geo" class="com.pjaol.search.solr.LocalSolrRequestHandler">
+     <str name="latField">lat</str>
+     <str name="lngField">lng</str>
+  </requestHandler>`
+
+---------------------------------------
+Addition of a ChainUpdateProcessorFactory to enable CartesianTier indexing
+Enable in the solrconfig.xml using:
+
+  <updateRequestProcessor>
+    <factory name="standard" class="solr.ChainedUpdateProcessorFactory" default="true">
+      <chain class="com.pjaol.search.solr.update.LocalUpdateProcessorFactory">
+        <str name="latField">lat</str>
+        <str name="lngField">lng</str>
+        <int name="startTier">9</int>
+        <int name="endTier">17</int>
+      </chain>
+      <chain class="solr.LogUpdateProcessorFactory" >
+       <!-- <int name="maxNumToLog">100</int> -->
+      </chain>
+      <chain class="solr.RunUpdateProcessorFactory" />
+    </factory>
+  </updateRequestProcessor>
+
+and in the fields node of schema.xml with:
+ <dynamicField name="_local*" type="sdouble" indexed="true" stored="true"/>
+
+---------------------------------------
+
+Release 1.0
+
+Depreciated LocalRequestHandler, and created LocalSolrRequestHandler
+to fit inline with solr-281 refactoring.
+Added optional user cache, which can be configured in the solconfig.xml similar to
+    <cache name="distanceCache"
+        class="solr.search.LRUCache"
+        size="4096"
+        initialSize="2048"
+        autowarmCount="0"/>
+        
+** Note Cache name must be distanceCache
+Changed the filter format to now use a CacheWrapperFilter query to reduce the
+amount of bits passed to the Radial Filter. This increases performance significantly
+for most queries.
+
+------------------------------------
+Moved sorting to solr's sort parameter
+sort=geo_distance asc 
+sort=geo_distance asc, field1 asc, field2 desc 
+etc....
+
+------------------------------------
+Created clean up procedures for distance sorting.
+
+------------------------------------
+Updated to solr version 1.3 to the local request handler
+
+------------------------------------
+Created a change log

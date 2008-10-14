@@ -1,0 +1,3852 @@
+<add>
+<doc>
+  <field name="id">0</field>
+  <field name="cinema">Five Star Theatres Bellmore Playhouse</field>
+  <field name="street">525 Bedford Avenue</field>
+  <field name="city">Bellmore</field>
+  <field name="zip">11710</field>
+  <field name="lat">40.6724</field>
+  <field name="lng">-73.5287</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">1</field>
+  <field name="cinema">CJM Hyway Theatre</field>
+  <field name="street">22-18 Broadway</field>
+  <field name="city">Fair Lawn</field>
+  <field name="zip">07410</field>
+  <field name="lat">40.9222</field>
+  <field name="lng">-74.1137</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">2</field>
+  <field name="cinema">National Amusements Showcase Cinemas Bridgeport</field>
+  <field name="street">286 Canfield Ave</field>
+  <field name="city">Bridgeport</field>
+  <field name="zip">06605</field>
+  <field name="lat">41.161</field>
+  <field name="lng">-73.2282</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">3</field>
+  <field name="cinema">National Amusements Fairfield Cinemas</field>
+  <field name="street">41 Black Rock Tpke</field>
+  <field name="city">Fairfield</field>
+  <field name="zip">06430</field>
+  <field name="lat">41.1611</field>
+  <field name="lng">-73.2306</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">4</field>
+  <field name="cinema">Pj Cinemas</field>
+  <field name="street">1068 Route 112</field>
+  <field name="city">Port Jefferson Station</field>
+  <field name="zip">11776</field>
+  <field name="lat">40.923</field>
+  <field name="lng">-73.0455</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">5</field>
+  <field name="cinema">Clearview Parsippany Cinema 12</field>
+  <field name="street">3165 Us Highway 46</field>
+  <field name="city">Parsippany</field>
+  <field name="zip">07054</field>
+  <field name="lat">40.8726</field>
+  <field name="lng">-74.4293</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">6</field>
+  <field name="cinema">National Amusements Farmingdale Multiplex Cinemas</field>
+  <field name="street">1001 Broad Hollow Road</field>
+  <field name="city">Farmingdale</field>
+  <field name="zip">11735</field>
+  <field name="lat">40.7285</field>
+  <field name="lng">-73.4238</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">7</field>
+  <field name="cinema">New Center Cinema</field>
+  <field name="street">4217 Queens Blvd</field>
+  <field name="city">Sunnyside</field>
+  <field name="zip">11104</field>
+  <field name="lat">40.7439</field>
+  <field name="lng">-73.9229</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">8</field>
+  <field name="cinema">Clearview Beacon Hill 5</field>
+  <field name="street">343 Springfield Avenue</field>
+  <field name="city">Summit</field>
+  <field name="zip">07901</field>
+  <field name="lat">40.7184</field>
+  <field name="lng">-74.3566</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">9</field>
+  <field name="cinema">LeFrak Imax Theatre</field>
+  <field name="street">79th Street And Central Park West</field>
+  <field name="city">New York</field>
+  <field name="zip">10024</field>
+  <field name="lat">40.791</field>
+  <field name="lng">-73.9763</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">10</field>
+  <field name="cinema">Clearview Greenwich Twin</field>
+  <field name="street">356 Greenwich Ave.</field>
+  <field name="city">Greenwich</field>
+  <field name="zip">06830</field>
+  <field name="lat">41.0236</field>
+  <field name="lng">-73.6251</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">11</field>
+  <field name="cinema">AMC Loews Danbury</field>
+  <field name="street">4-6 International Drive</field>
+  <field name="city">Danbury</field>
+  <field name="zip">06810</field>
+  <field name="lat">41.4185</field>
+  <field name="lng">-73.4171</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">12</field>
+  <field name="cinema">Community Theatre Foundation</field>
+  <field name="street">1424 Post Rd</field>
+  <field name="city">Fairfield</field>
+  <field name="zip">06430</field>
+  <field name="lat">41.1415</field>
+  <field name="lng">-73.2564</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">13</field>
+  <field name="cinema">Edmond Town Hall</field>
+  <field name="street">45 Main Street</field>
+  <field name="city">Newtown</field>
+  <field name="zip">06470</field>
+  <field name="lat">41.4145</field>
+  <field name="lng">-73.3097</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">14</field>
+  <field name="cinema">Bowtie New Canaan Playhouse</field>
+  <field name="street">89 Elm Street</field>
+  <field name="city">New Canaan</field>
+  <field name="zip">06840</field>
+  <field name="lat">41.1469</field>
+  <field name="lng">-73.4939</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">15</field>
+  <field name="cinema">AMC Loews Brick Plaza 10</field>
+  <field name="street">3 Brick Plaza</field>
+  <field name="city">Brick</field>
+  <field name="zip">08723</field>
+  <field name="lat">40.0596</field>
+  <field name="lng">-74.1422</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">16</field>
+  <field name="cinema">Maritime Aquarium At Norwalk</field>
+  <field name="street">10 North Water Street</field>
+  <field name="city">Norwalk</field>
+  <field name="zip">06854</field>
+  <field name="lat">41.1</field>
+  <field name="lng">-73.4163</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">17</field>
+  <field name="cinema">Regal Cinemas Marlboro Cinema 8</field>
+  <field name="street">12 Us Highway 9 N</field>
+  <field name="city">Morganville</field>
+  <field name="zip">07751</field>
+  <field name="lat">40.3396</field>
+  <field name="lng">-74.3078</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">18</field>
+  <field name="cinema">The Ridgefield Playhouse</field>
+  <field name="street">80 E Ridge Rd</field>
+  <field name="city">Ridgefield</field>
+  <field name="zip">06877</field>
+  <field name="lat">41.2791</field>
+  <field name="lng">-73.4934</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">19</field>
+  <field name="cinema">Angelika Film Center</field>
+  <field name="street">18 W. Houston Street</field>
+  <field name="city">New York</field>
+  <field name="zip">10012</field>
+  <field name="lat">40.7259</field>
+  <field name="lng">-73.9974</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">20</field>
+  <field name="cinema">National Amusements Linden Boulevard Multiplex Cinemas</field>
+  <field name="street">2784 Linden Blvd.</field>
+  <field name="city">Brooklyn</field>
+  <field name="zip">11208</field>
+  <field name="lat">40.6699</field>
+  <field name="lng">-73.8604</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">21</field>
+  <field name="cinema">Holiday Cinemas 10</field>
+  <field name="street">117 Sharon Road</field>
+  <field name="city">Waterbury</field>
+  <field name="zip">06705</field>
+  <field name="lat">41.5696</field>
+  <field name="lng">-73.0019</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">22</field>
+  <field name="cinema">United Artists Cortlandt Stadium Town Center</field>
+  <field name="street">3131 East Main Street</field>
+  <field name="city">Mohegan Lake</field>
+  <field name="zip">10547</field>
+  <field name="lat">41.326</field>
+  <field name="lng">-73.8494</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">23</field>
+  <field name="cinema">Roberts Theatres Chatham Theatre</field>
+  <field name="street">641 Shunpike Road</field>
+  <field name="city">Chatham</field>
+  <field name="zip">07928</field>
+  <field name="lat">40.7316</field>
+  <field name="lng">-74.3984</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">24</field>
+  <field name="cinema">National Amusements Showcase Cinemas Buckland Hills</field>
+  <field name="street">99 Red Stone Rd.</field>
+  <field name="city">Manchester</field>
+  <field name="zip">06045</field>
+  <field name="lat">41.8009</field>
+  <field name="lng">-72.5496</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">25</field>
+  <field name="cinema">United Artists Farmingdale  Stadium 10</field>
+  <field name="street">10 Michael Avenue</field>
+  <field name="city">Farmingdale</field>
+  <field name="zip">11735</field>
+  <field name="lat">40.7269</field>
+  <field name="lng">-73.4241</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">26</field>
+  <field name="cinema">Movieland Cinemas Movieland Mastic</field>
+  <field name="street">1600 Montauk Highway</field>
+  <field name="city">Mastic</field>
+  <field name="zip">11950</field>
+  <field name="lat">40.8063</field>
+  <field name="lng">-72.8405</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">27</field>
+  <field name="cinema">AMC Loews Palisades Center Theatre</field>
+  <field name="street">4403 Palisades Center Drive</field>
+  <field name="city">West Nyack</field>
+  <field name="zip">10994</field>
+  <field name="lat">41.1022</field>
+  <field name="lng">-73.9531</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">28</field>
+  <field name="cinema">Film Forum</field>
+  <field name="street">209 W Houston St</field>
+  <field name="city">New York</field>
+  <field name="zip">10014</field>
+  <field name="lat">40.7284</field>
+  <field name="lng">-74.0043</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">29</field>
+  <field name="cinema">Bam Rose Cinemas</field>
+  <field name="street">30 Lafayette Avenue</field>
+  <field name="city">Brooklyn</field>
+  <field name="zip">11217</field>
+  <field name="lat">40.6869</field>
+  <field name="lng">-73.9778</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">30</field>
+  <field name="cinema">Regal Cinemas Pohatcong Cinema 12</field>
+  <field name="street">1246 Route 22 East</field>
+  <field name="city">Phillipsburg</field>
+  <field name="zip">08865</field>
+  <field name="lat">40.6892</field>
+  <field name="lng">-75.1671</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">31</field>
+  <field name="cinema">Clearview Mansfield 14</field>
+  <field name="street">1965 State Route 57</field>
+  <field name="city">Hackettstown</field>
+  <field name="zip">07840</field>
+  <field name="lat">40.8323</field>
+  <field name="lng">-74.8278</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">32</field>
+  <field name="cinema">AMC Loews Stony Brook Theatre</field>
+  <field name="street">2196 Nesconset Highway</field>
+  <field name="city">Stony Brook</field>
+  <field name="zip">11790</field>
+  <field name="lat">40.874</field>
+  <field name="lng">-73.1221</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">33</field>
+  <field name="cinema">Bank Street Theatre</field>
+  <field name="street">46 Bank Street</field>
+  <field name="city">New Milford</field>
+  <field name="zip">06776</field>
+  <field name="lat">41.5778</field>
+  <field name="lng">-73.4112</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">34</field>
+  <field name="cinema">Regal Cinemas Commerce Center 18</field>
+  <field name="street">2399 Us Highway 1</field>
+  <field name="city">North Brunswick</field>
+  <field name="zip">08902</field>
+  <field name="lat">40.4428</field>
+  <field name="lng">-74.5024</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">35</field>
+  <field name="cinema">Dunellen Theater</field>
+  <field name="street">458 Dunellen Avenue</field>
+  <field name="city">Dunellen</field>
+  <field name="zip">08817</field>
+  <field name="lat">40.5912</field>
+  <field name="lng">-74.468</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">36</field>
+  <field name="cinema">AMC Theatres Clifton Commons</field>
+  <field name="street">405 State Rt 3</field>
+  <field name="city">Clifton</field>
+  <field name="zip">07014</field>
+  <field name="lat">40.8285</field>
+  <field name="lng">-74.1451</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">37</field>
+  <field name="cinema">Kew Gardens</field>
+  <field name="street">81-05 Lefferts Blvd.</field>
+  <field name="city">Kew Gardens</field>
+  <field name="zip">11415</field>
+  <field name="lat">40.7088</field>
+  <field name="lng">-73.8304</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">38</field>
+  <field name="cinema">Regal Cinemas Ronkonkoma 9</field>
+  <field name="street">565 Portion Rd</field>
+  <field name="city">Ronkonkoma</field>
+  <field name="zip">11779</field>
+  <field name="lat">40.8314</field>
+  <field name="lng">-73.0877</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">39</field>
+  <field name="cinema">Movieland Cinemas Movieland Coram</field>
+  <field name="street">1850 Route 112</field>
+  <field name="city">Coram</field>
+  <field name="zip">11727</field>
+  <field name="lat">40.8886</field>
+  <field name="lng">-73.013</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">40</field>
+  <field name="cinema">AMC Loews Kips Bay Theatre</field>
+  <field name="street">550 2nd Ave</field>
+  <field name="city">New York</field>
+  <field name="zip">10016</field>
+  <field name="lat">40.7425</field>
+  <field name="lng">-73.9774</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">41</field>
+  <field name="cinema">Reading Cinemas Manville 12-Plex</field>
+  <field name="street">180 N Main St</field>
+  <field name="city">Manville</field>
+  <field name="zip">08835</field>
+  <field name="lat">40.5388</field>
+  <field name="lng">-74.5927</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">42</field>
+  <field name="cinema">National Amusements College Point Multiplex Cinemas</field>
+  <field name="street">28-55 Ulmer Street</field>
+  <field name="city">Whitestone</field>
+  <field name="zip">11357</field>
+  <field name="lat">40.7753</field>
+  <field name="lng">-73.8386</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">43</field>
+  <field name="cinema">Bargain Cinemas Middletown Discount Cinemas 5</field>
+  <field name="street">128 Dolson Ave</field>
+  <field name="city">Middletown</field>
+  <field name="zip">10940</field>
+  <field name="lat">41.4271</field>
+  <field name="lng">-74.4275</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">44</field>
+  <field name="cinema">Empire Cinemas</field>
+  <field name="street">Route 22</field>
+  <field name="city">Brewster</field>
+  <field name="zip">10509</field>
+  <field name="lat">41.3621</field>
+  <field name="lng">-73.6491</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">45</field>
+  <field name="cinema">American Theatre</field>
+  <field name="street">1450 East Ave</field>
+  <field name="city">Bronx</field>
+  <field name="zip">10462</field>
+  <field name="lat">40.8364</field>
+  <field name="lng">-73.8604</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">46</field>
+  <field name="cinema">Clearview Headquarters 10</field>
+  <field name="street">72 Headquarters Plaza,  Inside the Headquarters Shopping Mal</field>
+  <field name="city">Morristown</field>
+  <field name="zip">07961</field>
+  <field name="lat">40.7966</field>
+  <field name="lng">-74.4672</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">47</field>
+  <field name="cinema">Clearview Aberdeen-Strathmore Art Cinema</field>
+  <field name="street">1055 State Route 34</field>
+  <field name="city">Aberdeen</field>
+  <field name="zip">07747</field>
+  <field name="lat">40.4082</field>
+  <field name="lng">-74.2361</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">48</field>
+  <field name="cinema">IMAX Theatre At Palisades Center</field>
+  <field name="street">4270 Palisades Center Dr</field>
+  <field name="city">West Nyack</field>
+  <field name="zip">10994</field>
+  <field name="lat">41.102</field>
+  <field name="lng">-73.9532</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">49</field>
+  <field name="cinema">AMC Loews Seacourt 10</field>
+  <field name="street">635 Bay Avenue</field>
+  <field name="city">Toms River</field>
+  <field name="zip">08753</field>
+  <field name="lat">39.9766</field>
+  <field name="lng">-74.1792</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">50</field>
+  <field name="cinema">Regal Cinemas New Roc City 18 And Imax</field>
+  <field name="street">33 LeCount Place</field>
+  <field name="city">New Rochelle</field>
+  <field name="zip">10801</field>
+  <field name="lat">40.9112</field>
+  <field name="lng">-73.7808</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">51</field>
+  <field name="cinema">United Artists Kaufman Astoria Stadium 16</field>
+  <field name="street">3530 38th Street</field>
+  <field name="city">Astoria</field>
+  <field name="zip">11101</field>
+  <field name="lat">40.7558</field>
+  <field name="lng">-73.9238</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">52</field>
+  <field name="cinema">AMC Loews 42nd St E-Walk Theater</field>
+  <field name="street">247 West 42nd St</field>
+  <field name="city">New York</field>
+  <field name="zip">10036</field>
+  <field name="lat">40.7566</field>
+  <field name="lng">-73.9883</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">53</field>
+  <field name="cinema">Clearview Clairidge Cinemas</field>
+  <field name="street">486 Bloomfield Avenue</field>
+  <field name="city">Montclair</field>
+  <field name="zip">07042</field>
+  <field name="lat">40.8145</field>
+  <field name="lng">-74.2183</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">54</field>
+  <field name="cinema">Regal Cinemas Stratford Stadium 14</field>
+  <field name="street">411 Barnum Avenue Cutoff</field>
+  <field name="city">Stratford</field>
+  <field name="zip">06614</field>
+  <field name="lat">41.1988</field>
+  <field name="lng">-73.1213</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">55</field>
+  <field name="cinema">AMC Loews Kings Plaza</field>
+  <field name="street">5201 Kings Plaza</field>
+  <field name="city">Brooklyn</field>
+  <field name="zip">11234</field>
+  <field name="lat">40.6179</field>
+  <field name="lng">-73.9218</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">56</field>
+  <field name="cinema">Bay Ridge Alpine Cinemas</field>
+  <field name="street">6817 5th Ave</field>
+  <field name="city">Brooklyn</field>
+  <field name="zip">11220</field>
+  <field name="lat">40.6339</field>
+  <field name="lng">-74.0207</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">57</field>
+  <field name="cinema">Clearview Warner Quad</field>
+  <field name="street">190 East Ridgewood Ave.</field>
+  <field name="city">Ridgewood</field>
+  <field name="zip">07450</field>
+  <field name="lat">40.979</field>
+  <field name="lng">-74.1154</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">58</field>
+  <field name="cinema">AMC Loews Route 4 Tenplex</field>
+  <field name="street">260 E State Rt 4</field>
+  <field name="city">Paramus</field>
+  <field name="zip">07652</field>
+  <field name="lat">40.9468</field>
+  <field name="lng">-74.0696</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">59</field>
+  <field name="cinema">National Amusements Showcase Cinemas Southington</field>
+  <field name="street">1821 Meriden Waterbury Tnpk</field>
+  <field name="city">Southington</field>
+  <field name="zip">06489</field>
+  <field name="lat">41.6075</field>
+  <field name="lng">-72.8728</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">60</field>
+  <field name="cinema">Entertainment Cinemas Seymour</field>
+  <field name="street">814 Derby Avenue</field>
+  <field name="city">Seymour</field>
+  <field name="zip">06483</field>
+  <field name="lat">41.3648</field>
+  <field name="lng">-73.091</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">61</field>
+  <field name="cinema">Destinta Theatres Metro Square 12</field>
+  <field name="street">49 College Street</field>
+  <field name="city">Middletown</field>
+  <field name="zip">06457</field>
+  <field name="lat">41.5597</field>
+  <field name="lng">-72.6475</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">62</field>
+  <field name="cinema">American Place Movies Cinema Plaza</field>
+  <field name="street">Route 202 and 31</field>
+  <field name="city">Flemington</field>
+  <field name="zip">08822</field>
+  <field name="lat">40.5158</field>
+  <field name="lng">-74.8484</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">63</field>
+  <field name="cinema">National Amusements ISLAND 16: cinema de lux</field>
+  <field name="street">L.I.E. Exit 61 (E) or 62 (W) and Route 97</field>
+  <field name="city">Holtsville</field>
+  <field name="zip">11742</field>
+  <field name="lat">40.8117</field>
+  <field name="lng">-73.0417</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">64</field>
+  <field name="cinema">Clearview Millburn Cinema 4</field>
+  <field name="street">350 Millburn Ave</field>
+  <field name="city">Millburn</field>
+  <field name="zip">07041</field>
+  <field name="lat">40.724</field>
+  <field name="lng">-74.3067</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">65</field>
+  <field name="cinema">National Amusements Green Acres</field>
+  <field name="street">610 West Sunrise Highway</field>
+  <field name="city">Valley Stream</field>
+  <field name="zip">11581</field>
+  <field name="lat">40.6653</field>
+  <field name="lng">-73.7231</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">66</field>
+  <field name="cinema">Destinta Theatres New Windsor 12</field>
+  <field name="street">215 Quassaick Ave</field>
+  <field name="city">New Windsor</field>
+  <field name="zip">12552</field>
+  <field name="lat">41.4759</field>
+  <field name="lng">-74.0238</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">67</field>
+  <field name="cinema">Clearview Chelsea Cinemas</field>
+  <field name="street">260 West 23rd Street</field>
+  <field name="city">New York</field>
+  <field name="zip">10011</field>
+  <field name="lat">40.7448</field>
+  <field name="lng">-73.9974</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">68</field>
+  <field name="cinema">AMC Loews Fantasy Theatre</field>
+  <field name="street">18 North Park Avenue</field>
+  <field name="city">Rockville Centre</field>
+  <field name="zip">11570</field>
+  <field name="lat">40.6568</field>
+  <field name="lng">-73.6453</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">69</field>
+  <field name="cinema">National Amusements Greenburgh Multiplex Cinemas</field>
+  <field name="street">320 Saw Mill River Rd</field>
+  <field name="city">Elmsford</field>
+  <field name="zip">10523</field>
+  <field name="lat">41.0793</field>
+  <field name="lng">-73.8261</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">70</field>
+  <field name="cinema">Clearview Ziegfeld Theatre</field>
+  <field name="street">141 West 54th Street</field>
+  <field name="city">New York</field>
+  <field name="zip">10019</field>
+  <field name="lat">40.763</field>
+  <field name="lng">-73.9798</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">71</field>
+  <field name="cinema">IFC Center</field>
+  <field name="street">323 Avenue of the Americas</field>
+  <field name="city">New York</field>
+  <field name="zip">10014</field>
+  <field name="lat">40.7312</field>
+  <field name="lng">-74.0014</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">72</field>
+  <field name="cinema">Chester Sixplex Inc. Chester 6 Cinema</field>
+  <field name="street">223 Chester Mall, Route 17M and Route 94</field>
+  <field name="city">Chester</field>
+  <field name="zip">10918</field>
+  <field name="lat">41.3512</field>
+  <field name="lng">-74.2606</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">73</field>
+  <field name="cinema">AMC Loews Newport Center 11</field>
+  <field name="street">30 Mall Dr W</field>
+  <field name="city">Jersey City</field>
+  <field name="zip">07310</field>
+  <field name="lat">40.7312</field>
+  <field name="lng">-74.0406</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">74</field>
+  <field name="cinema">Clearview Chelsea West Cinemas</field>
+  <field name="street">333 West 23rd Street</field>
+  <field name="city">New York</field>
+  <field name="zip">10011</field>
+  <field name="lat">40.7457</field>
+  <field name="lng">-73.9993</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">75</field>
+  <field name="cinema">The ImaginAsian</field>
+  <field name="street">239 East 59th Street</field>
+  <field name="city">New York</field>
+  <field name="zip">10022</field>
+  <field name="lat">40.7612</field>
+  <field name="lng">-73.9657</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">76</field>
+  <field name="cinema">Merrick Cinemas</field>
+  <field name="street">15 Fisher Avenue</field>
+  <field name="city">Merrick</field>
+  <field name="zip">11566</field>
+  <field name="lat">40.6639</field>
+  <field name="lng">-73.5534</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">77</field>
+  <field name="cinema">Hamilton Movie House</field>
+  <field name="street">7 Lebanon Street</field>
+  <field name="city">Hamilton</field>
+  <field name="zip">13346</field>
+  <field name="lat">42.8262</field>
+  <field name="lng">-75.5463</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">78</field>
+  <field name="cinema">Grumman Imax Theater, Cradle of Aviation</field>
+  <field name="street">1 Davis Avenue</field>
+  <field name="city">Garden City</field>
+  <field name="zip">11530</field>
+  <field name="lat">40.7281</field>
+  <field name="lng">-73.6019</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">79</field>
+  <field name="cinema">AMC Loews Fresh Meadows</field>
+  <field name="street">19002 Horace Harding Expy</field>
+  <field name="city">Fresh Meadows</field>
+  <field name="zip">11365</field>
+  <field name="lat">40.7412</field>
+  <field name="lng">-73.7846</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">80</field>
+  <field name="cinema">Mattituck Cinema</field>
+  <field name="street">Route 25, Mattituck Plaza</field>
+  <field name="city">Mattituck</field>
+  <field name="zip">11952</field>
+  <field name="lat">40.9973</field>
+  <field name="lng">-72.5415</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">81</field>
+  <field name="cinema">Cranford Theatre</field>
+  <field name="street">25 North Avenue</field>
+  <field name="city">Cranford</field>
+  <field name="zip">07016</field>
+  <field name="lat">40.6565</field>
+  <field name="lng">-74.3021</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">82</field>
+  <field name="cinema">Union Theatre</field>
+  <field name="street">990 Stuyvesant Avenue</field>
+  <field name="city">Union</field>
+  <field name="zip">07083</field>
+  <field name="lat">40.6962</field>
+  <field name="lng">-74.2705</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">83</field>
+  <field name="cinema">The Two Boots Pioneer Theater</field>
+  <field name="street">155 E 3rd St</field>
+  <field name="city">New York</field>
+  <field name="zip">10009</field>
+  <field name="lat">40.7235</field>
+  <field name="lng">-73.9849</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">84</field>
+  <field name="cinema">Hampton Arts Twin</field>
+  <field name="street">2 Brook Road</field>
+  <field name="city">Westhampton Beach</field>
+  <field name="zip">11978</field>
+  <field name="lat">40.8142</field>
+  <field name="lng">-72.6463</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">85</field>
+  <field name="cinema">AMC Loews Shore 8</field>
+  <field name="street">37 Wall Street</field>
+  <field name="city">Huntington</field>
+  <field name="zip">11743</field>
+  <field name="lat">40.8724</field>
+  <field name="lng">-73.4278</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">86</field>
+  <field name="cinema">AMC Theatres Empire 25</field>
+  <field name="street">234 West 42nd Street</field>
+  <field name="city">New York</field>
+  <field name="zip">10036</field>
+  <field name="lat">40.7564</field>
+  <field name="lng">-73.988</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">87</field>
+  <field name="cinema">Clearview Caldwell Cinema 4</field>
+  <field name="street">317 Bloomfield Avenue</field>
+  <field name="city">Caldwell</field>
+  <field name="zip">07006</field>
+  <field name="lat">40.8396</field>
+  <field name="lng">-74.2758</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">88</field>
+  <field name="cinema">United Artists Columbia Park Stadium 12</field>
+  <field name="street">3115 Kennedy Blvd</field>
+  <field name="city">North Bergen</field>
+  <field name="zip">07047</field>
+  <field name="lat">40.7743</field>
+  <field name="lng">-74.0345</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">89</field>
+  <field name="cinema">AMC Loews Harlem USA</field>
+  <field name="street">2309 Frederick Douglass Blvd</field>
+  <field name="city">New York</field>
+  <field name="zip">10027</field>
+  <field name="lat">40.8096</field>
+  <field name="lng">-73.9517</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">90</field>
+  <field name="cinema">United Artists Court Street Stadium 12</field>
+  <field name="street">108 Court Street</field>
+  <field name="city">Brooklyn</field>
+  <field name="zip">11201</field>
+  <field name="lat">40.6906</field>
+  <field name="lng">-73.992</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">91</field>
+  <field name="cinema">Regal Cinemas Battery Park Stadium 11</field>
+  <field name="street">102 North End Avenue</field>
+  <field name="city">New York</field>
+  <field name="zip">10281</field>
+  <field name="lat">40.7137</field>
+  <field name="lng">-74.0149</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">92</field>
+  <field name="cinema">City Cinemas Cinema 1, 2, and 3</field>
+  <field name="street">1001 3rd Avenue</field>
+  <field name="city">New York</field>
+  <field name="zip">10022</field>
+  <field name="lat">40.7619</field>
+  <field name="lng">-73.9663</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">93</field>
+  <field name="cinema">Quad Cinema</field>
+  <field name="street">34 West 13th Street</field>
+  <field name="city">New York</field>
+  <field name="zip">10011</field>
+  <field name="lat">40.7357</field>
+  <field name="lng">-73.9953</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">94</field>
+  <field name="cinema">Paris Theatre</field>
+  <field name="street">4 West 58th Street</field>
+  <field name="city">New York</field>
+  <field name="zip">10019</field>
+  <field name="lat">40.7651</field>
+  <field name="lng">-73.9762</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">95</field>
+  <field name="cinema">AMC Loews Lincoln Square</field>
+  <field name="street">1998 Broadway</field>
+  <field name="city">New York</field>
+  <field name="zip">10023</field>
+  <field name="lat">40.7754</field>
+  <field name="lng">-73.9822</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">96</field>
+  <field name="cinema">Rialto Theatre</field>
+  <field name="street">172 Main Street</field>
+  <field name="city">Ridgefield Park</field>
+  <field name="zip">07660</field>
+  <field name="lat">40.8559</field>
+  <field name="lng">-74.0255</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">97</field>
+  <field name="cinema">In Town Theatres Seaford Cinemas</field>
+  <field name="street">3951 Merrick Road</field>
+  <field name="city">Seaford</field>
+  <field name="zip">11783</field>
+  <field name="lat">40.6664</field>
+  <field name="lng">-73.4855</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">98</field>
+  <field name="cinema">Museum of Modern Art</field>
+  <field name="street">11 West 53rd St</field>
+  <field name="city">New York</field>
+  <field name="zip">10019</field>
+  <field name="lat">40.7606</field>
+  <field name="lng">-73.9762</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">99</field>
+  <field name="cinema">American Museum of the Moving Image</field>
+  <field name="street">35th Avenue at 36th Street</field>
+  <field name="city">Astoria</field>
+  <field name="zip">11106</field>
+  <field name="lat">40.7563</field>
+  <field name="lng">-73.9245</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">100</field>
+  <field name="cinema">Cobble Hill Cinemas</field>
+  <field name="street">265 Court St.</field>
+  <field name="city">Brooklyn</field>
+  <field name="zip">11231</field>
+  <field name="lat">40.685</field>
+  <field name="lng">-73.9946</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">101</field>
+  <field name="cinema">Bowtie Palace 17 &amp; Odyssey Theatre</field>
+  <field name="street">330 New Park Ave</field>
+  <field name="city">Hartford</field>
+  <field name="zip">06106</field>
+  <field name="lat">41.7547</field>
+  <field name="lng">-72.7555</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">102</field>
+  <field name="cinema">National Amusements City Center 15: Cinema de Lux</field>
+  <field name="street">19 Mamaroneck Avenue</field>
+  <field name="city">White Plains</field>
+  <field name="zip">10601</field>
+  <field name="lat">41.0318</field>
+  <field name="lng">-73.7647</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">103</field>
+  <field name="cinema">Cinema Classics</field>
+  <field name="street">332 East 11th Street</field>
+  <field name="city">New York</field>
+  <field name="zip">10003</field>
+  <field name="lat">40.7299</field>
+  <field name="lng">-73.9855</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">104</field>
+  <field name="cinema">Sag Harbor Cinema</field>
+  <field name="street">90 Main Street</field>
+  <field name="city">Sag Harbor</field>
+  <field name="zip">11963</field>
+  <field name="lat">41.0005</field>
+  <field name="lng">-72.2953</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">105</field>
+  <field name="cinema">Bowtie Wilton 4</field>
+  <field name="street">21 River Road</field>
+  <field name="city">Wilton</field>
+  <field name="zip">06897</field>
+  <field name="lat">41.1904</field>
+  <field name="lng">-73.4306</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">106</field>
+  <field name="cinema">Hillsborough Cinemas</field>
+  <field name="street">111 Raider Blvd</field>
+  <field name="city">Hillsborough</field>
+  <field name="zip">08844</field>
+  <field name="lat">40.4992</field>
+  <field name="lng">-74.5893</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">107</field>
+  <field name="cinema">National Amusements Edgewater Multiplex Cinemas</field>
+  <field name="street">339 River Road</field>
+  <field name="city">Edgewater</field>
+  <field name="zip">07020</field>
+  <field name="lat">40.8121</field>
+  <field name="lng">-73.9882</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">108</field>
+  <field name="cinema">Madison Art Cinemas</field>
+  <field name="street">761 Boston Post Road</field>
+  <field name="city">Madison</field>
+  <field name="zip">06443</field>
+  <field name="lat">41.2798</field>
+  <field name="lng">-72.5953</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">109</field>
+  <field name="cinema">Regal (Hoyts) Waterford Cinemas 9</field>
+  <field name="street">123 Cross Road</field>
+  <field name="city">Waterford</field>
+  <field name="zip">06385</field>
+  <field name="lat">41.3737</field>
+  <field name="lng">-72.1618</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">110</field>
+  <field name="cinema">AMC Theatres Essex Green 9</field>
+  <field name="street">Prospect Avenue</field>
+  <field name="city">West Orange</field>
+  <field name="zip">07052</field>
+  <field name="lat">40.7887</field>
+  <field name="lng">-74.2579</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">111</field>
+  <field name="cinema">Mega Movies at Brunswick Square</field>
+  <field name="street">755 State Route 18</field>
+  <field name="city">East Brunswick</field>
+  <field name="zip">08816</field>
+  <field name="lat">40.433</field>
+  <field name="lng">-74.3875</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">112</field>
+  <field name="cinema">Meriden Cinema 10</field>
+  <field name="street">61 Pomeroy Ave</field>
+  <field name="city">Meriden</field>
+  <field name="zip">06450</field>
+  <field name="lat">41.5241</field>
+  <field name="lng">-72.7674</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">113</field>
+  <field name="cinema">Independent Wishing Star Cinema 4</field>
+  <field name="street">Route 101- 738 Hartford Pike</field>
+  <field name="city">Dayville</field>
+  <field name="zip">06241</field>
+  <field name="lat">41.8532</field>
+  <field name="lng">-71.8657</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">114</field>
+  <field name="cinema">Hoyts Simsbury Commons 8</field>
+  <field name="street">530 Bushy Hill</field>
+  <field name="city">Simsbury</field>
+  <field name="zip">06070</field>
+  <field name="lat">41.8224</field>
+  <field name="lng">-72.8599</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">115</field>
+  <field name="cinema">Avon Theatre</field>
+  <field name="street">272 Bedford Street</field>
+  <field name="city">Stamford</field>
+  <field name="zip">06901</field>
+  <field name="lat">41.0562</field>
+  <field name="lng">-73.5386</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">116</field>
+  <field name="cinema">Hoyts Brass Mills Center 12</field>
+  <field name="street">495 Union Street</field>
+  <field name="city">Waterbury</field>
+  <field name="zip">06706</field>
+  <field name="lat">41.5518</field>
+  <field name="lng">-73.035</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">117</field>
+  <field name="cinema">Regal (Hoyts) Branford 12</field>
+  <field name="street">325 East Main Street</field>
+  <field name="city">Branford</field>
+  <field name="zip">06405</field>
+  <field name="lat">41.2925</field>
+  <field name="lng">-72.7866</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">118</field>
+  <field name="cinema">Marquee Cinemas Westbrook 12</field>
+  <field name="street">314 Flat Rock Place</field>
+  <field name="city">Westbrook</field>
+  <field name="zip">06498</field>
+  <field name="lat">41.2896</field>
+  <field name="lng">-72.4363</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">119</field>
+  <field name="cinema">Jacob Burns Film Center</field>
+  <field name="street">364 Manville Road</field>
+  <field name="city">Pleasantville</field>
+  <field name="zip">10570</field>
+  <field name="lat">41.1352</field>
+  <field name="lng">-73.7923</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">120</field>
+  <field name="cinema">AMC Loews Jersey Gardens</field>
+  <field name="street">651 Kapkowski Rd</field>
+  <field name="city">Elizabeth</field>
+  <field name="zip">07201</field>
+  <field name="lat">40.6627</field>
+  <field name="lng">-74.1745</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">121</field>
+  <field name="cinema">Anthology Film Archives</field>
+  <field name="street">32 2nd Ave</field>
+  <field name="city">New York</field>
+  <field name="zip">10003</field>
+  <field name="lat">40.7247</field>
+  <field name="lng">-73.9904</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">122</field>
+  <field name="cinema">United Artists All Staten Island Stadium 16</field>
+  <field name="street">2474 Forest Avenue</field>
+  <field name="city">Staten Island</field>
+  <field name="zip">10303</field>
+  <field name="lat">40.6274</field>
+  <field name="lng">-74.1728</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">123</field>
+  <field name="cinema">Clearview Central Plaza 4</field>
+  <field name="street">2630 Central Park Avenue</field>
+  <field name="city">Yonkers</field>
+  <field name="zip">10710</field>
+  <field name="lat">40.9829</field>
+  <field name="lng">-73.828</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">124</field>
+  <field name="cinema">AMC Theatres Bridgewater Commons 7</field>
+  <field name="street">400 Commons Way Suite 380</field>
+  <field name="city">Bridgewater</field>
+  <field name="zip">08807</field>
+  <field name="lat">40.587</field>
+  <field name="lng">-74.6165</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">125</field>
+  <field name="cinema">Cine Plaza</field>
+  <field name="street">2115 69th Street</field>
+  <field name="city">North Bergen</field>
+  <field name="zip">07047</field>
+  <field name="lat">40.8005</field>
+  <field name="lng">-74.0231</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">126</field>
+  <field name="cinema">Regal (Hoyts) Stonington 10</field>
+  <field name="street">85 Voluntown Road</field>
+  <field name="city">Pawcatuck</field>
+  <field name="zip">06379</field>
+  <field name="lat">41.4049</field>
+  <field name="lng">-71.8461</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">127</field>
+  <field name="cinema">AMC Loews 34th Street</field>
+  <field name="street">312 West 34th Street</field>
+  <field name="city">New York</field>
+  <field name="zip">10001</field>
+  <field name="lat">40.7523</field>
+  <field name="lng">-73.9939</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">128</field>
+  <field name="cinema">Country Cinema</field>
+  <field name="street">523 Main Street</field>
+  <field name="city">Watertown</field>
+  <field name="zip">06795</field>
+  <field name="lat">41.6033</field>
+  <field name="lng">-73.1166</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">129</field>
+  <field name="cinema">Landmark's Sunshine Cinema</field>
+  <field name="street">143 East Houston Street</field>
+  <field name="city">New York</field>
+  <field name="zip">10002</field>
+  <field name="lat">40.7232</field>
+  <field name="lng">-73.9898</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">130</field>
+  <field name="cinema">National Amusements Jamaica Mutiplex</field>
+  <field name="street">159-02 Jamaica Ave</field>
+  <field name="city">Jamaica</field>
+  <field name="zip">11425</field>
+  <field name="lat">40.7033</field>
+  <field name="lng">-73.8003</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">131</field>
+  <field name="cinema">Algonquin Arts Theatre</field>
+  <field name="street">171 Main Street</field>
+  <field name="city">Manasquan</field>
+  <field name="zip">08736</field>
+  <field name="lat">40.1222</field>
+  <field name="lng">-74.0492</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">132</field>
+  <field name="cinema">Clearview Bedford Playhouse</field>
+  <field name="street">Route 22</field>
+  <field name="city">Bedford</field>
+  <field name="zip">10506</field>
+  <field name="lat">41.1885</field>
+  <field name="lng">-73.6371</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">133</field>
+  <field name="cinema">Criterion Cinemas</field>
+  <field name="street">86 Temple Street</field>
+  <field name="city">New Haven</field>
+  <field name="zip">06510</field>
+  <field name="lat">41.3047</field>
+  <field name="lng">-72.9285</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">134</field>
+  <field name="cinema">Reality Bites</field>
+  <field name="street">100 Main Street</field>
+  <field name="city">Nyack</field>
+  <field name="zip">10960</field>
+  <field name="lat">41.0913</field>
+  <field name="lng">-73.9197</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">135</field>
+  <field name="cinema">Clearview Mount Kisco Cinema</field>
+  <field name="street">144 E Main St</field>
+  <field name="city">Mount Kisco</field>
+  <field name="zip">10549</field>
+  <field name="lat">41.216</field>
+  <field name="lng">-73.7473</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">136</field>
+  <field name="cinema">Symphony Space's Leonard Nimoy Thalia</field>
+  <field name="street">2537 Broadway</field>
+  <field name="city">New York</field>
+  <field name="zip">10025</field>
+  <field name="lat">40.7939</field>
+  <field name="lng">-73.9726</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">137</field>
+  <field name="cinema">Clearview Beekman One &amp; Two</field>
+  <field name="street">1271 2nd Ave</field>
+  <field name="city">New York</field>
+  <field name="zip">10021</field>
+  <field name="lat">40.7654</field>
+  <field name="lng">-73.9609</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">138</field>
+  <field name="cinema">Showtime Cinemas</field>
+  <field name="street">1420 Route 300</field>
+  <field name="city">Newburgh</field>
+  <field name="zip">12550</field>
+  <field name="lat">41.5458</field>
+  <field name="lng">-74.0624</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">139</field>
+  <field name="cinema">AMC Loews 84th Street Theatre</field>
+  <field name="street">2310 Broadway</field>
+  <field name="city">New York</field>
+  <field name="zip">10024</field>
+  <field name="lat">40.7867</field>
+  <field name="lng">-73.9778</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">140</field>
+  <field name="cinema">Hollywood Cinemas</field>
+  <field name="street">636 Central Avenue</field>
+  <field name="city">East Orange</field>
+  <field name="zip">07018</field>
+  <field name="lat">40.7622</field>
+  <field name="lng">-74.2256</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">141</field>
+  <field name="cinema">Holiday Stadium 10 Wallingford</field>
+  <field name="street">970 North Colony Road</field>
+  <field name="city">Wallingford</field>
+  <field name="zip">06492</field>
+  <field name="lat">41.4884</field>
+  <field name="lng">-72.8096</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">142</field>
+  <field name="cinema">Tower East</field>
+  <field name="street">1230 3rd Ave</field>
+  <field name="city">New York</field>
+  <field name="zip">10021</field>
+  <field name="lat">40.7691</field>
+  <field name="lng">-73.9609</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">143</field>
+  <field name="cinema">AMC Loews Roosevelt Field</field>
+  <field name="street">Roosevelt Field Shopping Ctr.</field>
+  <field name="city">Garden City</field>
+  <field name="zip">11530</field>
+  <field name="lat">40.728</field>
+  <field name="lng">-73.638</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">144</field>
+  <field name="cinema">AMC Loews The Waterfront at Port Chester</field>
+  <field name="street">40 Westchester Avenue</field>
+  <field name="city">Port Chester</field>
+  <field name="zip">10573</field>
+  <field name="lat">40.9999</field>
+  <field name="lng">-73.6625</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">145</field>
+  <field name="cinema">Connecticut Post 14 Cinema De Lux</field>
+  <field name="street">1201 Boston Post Road</field>
+  <field name="city">Milford</field>
+  <field name="zip">06460</field>
+  <field name="lat">41.2361</field>
+  <field name="lng">-73.0395</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">146</field>
+  <field name="cinema">Regal Cinemas Atlas Park Stadium 8</field>
+  <field name="street">80-28 Cooper Avenue</field>
+  <field name="city">Glendale</field>
+  <field name="zip">11385</field>
+  <field name="lat">40.7095</field>
+  <field name="lng">-73.8691</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">147</field>
+  <field name="cinema">Clearview South Orange 5</field>
+  <field name="street">1 SOPAC Way</field>
+  <field name="city">South Orange</field>
+  <field name="zip">07079</field>
+  <field name="lat">40.7481</field>
+  <field name="lng">-74.2586</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">148</field>
+  <field name="cinema">AMC Loews Bay Terrace</field>
+  <field name="street">211-01  26th  Avenue</field>
+  <field name="city">Bayside</field>
+  <field name="zip">11360</field>
+  <field name="lat">40.7778</field>
+  <field name="lng">-73.7784</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">149</field>
+  <field name="cinema">AMC Loews Nassau Mall 10</field>
+  <field name="street">3585 Hemstead Turnpike</field>
+  <field name="city">Levittown</field>
+  <field name="zip">11756</field>
+  <field name="lat">40.7256</field>
+  <field name="lng">-73.5165</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">150</field>
+  <field name="cinema">AMC Loews Wayne Theatre</field>
+  <field name="street">67 Willowbrook Blvd.</field>
+  <field name="city">Wayne</field>
+  <field name="zip">07470</field>
+  <field name="lat">40.8888</field>
+  <field name="lng">-74.2506</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">151</field>
+  <field name="cinema">AMC Loews Ridgefield Park Theatre</field>
+  <field name="street">75 Challenger Road</field>
+  <field name="city">Ridgefield Park</field>
+  <field name="zip">07660</field>
+  <field name="lat">40.8496</field>
+  <field name="lng">-74.013</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">152</field>
+  <field name="cinema">AMC Theatres AMC Rockaway 16</field>
+  <field name="street">363 Mt. Hope Blvd.</field>
+  <field name="city">Rockaway</field>
+  <field name="zip">07866</field>
+  <field name="lat">40.9052</field>
+  <field name="lng">-74.5466</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">153</field>
+  <field name="cinema">Parkade Cinema</field>
+  <field name="street">308 Broad Street</field>
+  <field name="city">Manchester</field>
+  <field name="zip">06040</field>
+  <field name="lat">41.7781</field>
+  <field name="lng">-72.5343</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">154</field>
+  <field name="cinema">Clearview Red Bank Art Cinema</field>
+  <field name="street">36 White Street</field>
+  <field name="city">Red Bank</field>
+  <field name="zip">07701</field>
+  <field name="lat">40.3505</field>
+  <field name="lng">-74.0679</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">155</field>
+  <field name="cinema">Clearview Middlebrook Galleria</field>
+  <field name="street">1502 State Route 35</field>
+  <field name="city">Ocean</field>
+  <field name="zip">07712</field>
+  <field name="lat">40.2501</field>
+  <field name="lng">-74.0389</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">156</field>
+  <field name="cinema">AMC Loews Meadows Six Theatre</field>
+  <field name="street">800 Plaza Drive</field>
+  <field name="city">Secaucus</field>
+  <field name="zip">07094</field>
+  <field name="lat">40.7861</field>
+  <field name="lng">-74.0464</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">157</field>
+  <field name="cinema">AMC Loews Plaza 8 Theatre</field>
+  <field name="street">495 Harmon Meadow Blvd.</field>
+  <field name="city">Secaucus</field>
+  <field name="zip">07094</field>
+  <field name="lat">40.7895</field>
+  <field name="lng">-74.0445</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">158</field>
+  <field name="cinema">Lincoln Plaza Cinemas</field>
+  <field name="street">Broadway Between 62nd and  63rd</field>
+  <field name="city">New York</field>
+  <field name="zip">10023</field>
+  <field name="lat">40.7707</field>
+  <field name="lng">-73.9809</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">159</field>
+  <field name="cinema">National Amusements Whitestone Multiplex</field>
+  <field name="street">2505 Bruckner Blvd</field>
+  <field name="city">Bronx</field>
+  <field name="zip">10465</field>
+  <field name="lat">40.8303</field>
+  <field name="lng">-73.834</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">160</field>
+  <field name="cinema">National Amusements Sunrise Mutiplex Cinemas</field>
+  <field name="street">750 West Sunrise Hwy</field>
+  <field name="city">Valley Stream</field>
+  <field name="zip">11580</field>
+  <field name="lat">40.6654</field>
+  <field name="lng">-73.7256</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">161</field>
+  <field name="cinema">National Amusements All Westchester Saw Mill Multiplex</field>
+  <field name="street">151 Saw Mill River Road</field>
+  <field name="city">Hawthorne</field>
+  <field name="zip">10532</field>
+  <field name="lat">41.0978</field>
+  <field name="lng">-73.8084</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">162</field>
+  <field name="cinema">National Amusements Commack Multiplex Cinemas</field>
+  <field name="street">Commack Road</field>
+  <field name="city">Commack</field>
+  <field name="zip">11725</field>
+  <field name="lat">40.838</field>
+  <field name="lng">-73.2824</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">163</field>
+  <field name="cinema">City Cinemas East 86th Street Cinema</field>
+  <field name="street">210 East 86th Street</field>
+  <field name="city">New York</field>
+  <field name="zip">10028</field>
+  <field name="lat">40.7786</field>
+  <field name="lng">-73.9538</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">164</field>
+  <field name="cinema">Bowtie Marquis</field>
+  <field name="street">100 Quarry Rd</field>
+  <field name="city">Trumbull</field>
+  <field name="zip">06611</field>
+  <field name="lat">41.2273</field>
+  <field name="lng">-73.1814</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">165</field>
+  <field name="cinema">Bowtie Plaza 3</field>
+  <field name="street">2 Railroad Ave</field>
+  <field name="city">Greenwich</field>
+  <field name="zip">06830</field>
+  <field name="lat">41.0217</field>
+  <field name="lng">-73.6244</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">166</field>
+  <field name="cinema">Bowtie Majestic Theatre</field>
+  <field name="street">118 Summer Street</field>
+  <field name="city">Stamford</field>
+  <field name="zip">06901</field>
+  <field name="lat">41.0542</field>
+  <field name="lng">-73.5407</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">167</field>
+  <field name="cinema">Bowtie Landmark Square</field>
+  <field name="street">5 Landmark Square</field>
+  <field name="city">Stamford</field>
+  <field name="zip">06901</field>
+  <field name="lat">41.0553</field>
+  <field name="lng">-73.5403</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">168</field>
+  <field name="cinema">The Pascack Theatre</field>
+  <field name="street">182 Center Avenue</field>
+  <field name="city">Westwood</field>
+  <field name="zip">07675</field>
+  <field name="lat">40.9905</field>
+  <field name="lng">-74.0306</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">169</field>
+  <field name="cinema">Clearview Bellevue Cinema 4</field>
+  <field name="street">260 Bellevue Ave</field>
+  <field name="city">Upper Montclair</field>
+  <field name="zip">07043</field>
+  <field name="lat">40.8413</field>
+  <field name="lng">-74.2092</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">170</field>
+  <field name="cinema">Regal Cinemas Union Square Stadium 14</field>
+  <field name="street">850 Broadway</field>
+  <field name="city">New York</field>
+  <field name="zip">10003</field>
+  <field name="lat">40.7346</field>
+  <field name="lng">-73.991</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">171</field>
+  <field name="cinema">United Artists Sheepshead Bay Stadium 14</field>
+  <field name="street">3907 Shore Pkwy</field>
+  <field name="city">Brooklyn</field>
+  <field name="zip">11235</field>
+  <field name="lat">40.5858</field>
+  <field name="lng">-73.9311</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">172</field>
+  <field name="cinema">Clearview Wayne Preakness Cinemas</field>
+  <field name="street">Preakness Shopping Cntr</field>
+  <field name="city">Wayne</field>
+  <field name="zip">07470</field>
+  <field name="lat">40.9876</field>
+  <field name="lng">-74.252</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">173</field>
+  <field name="cinema">United Artists Westbury Stadium 12</field>
+  <field name="street">7000 Brush Hollow Road</field>
+  <field name="city">Westbury</field>
+  <field name="zip">11590</field>
+  <field name="lat">40.779</field>
+  <field name="lng">-73.5586</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">174</field>
+  <field name="cinema">United Artists UA East</field>
+  <field name="street">1629 1st Ave</field>
+  <field name="city">New York</field>
+  <field name="zip">10028</field>
+  <field name="lat">40.7762</field>
+  <field name="lng">-73.9499</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">175</field>
+  <field name="cinema">United Artists 64th And 2nd</field>
+  <field name="street">1210 2nd Ave</field>
+  <field name="city">New York</field>
+  <field name="zip">10021</field>
+  <field name="lat">40.7634</field>
+  <field name="lng">-73.9621</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">176</field>
+  <field name="cinema">United Artists Hampton Bays 5</field>
+  <field name="street">119 W. Montauk Highway</field>
+  <field name="city">Hampton Bays</field>
+  <field name="zip">11946</field>
+  <field name="lat">40.877</field>
+  <field name="lng">-72.5284</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">177</field>
+  <field name="cinema">Clearview Manhasset</field>
+  <field name="street">430 Plandome Road</field>
+  <field name="city">Manhasset</field>
+  <field name="zip">11030</field>
+  <field name="lat">40.7985</field>
+  <field name="lng">-73.6999</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">178</field>
+  <field name="cinema">United Artists Easthampton</field>
+  <field name="street">30 Main Street</field>
+  <field name="city">East Hampton</field>
+  <field name="zip">11937</field>
+  <field name="lat">40.9631</field>
+  <field name="lng">-72.1857</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">179</field>
+  <field name="cinema">Clearview Larchmont Playhouse</field>
+  <field name="street">1975 Palmer Avenue</field>
+  <field name="city">Larchmont</field>
+  <field name="zip">10538</field>
+  <field name="lat">40.9311</field>
+  <field name="lng">-73.7612</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">180</field>
+  <field name="cinema">Rialto Theatre Of Westfield</field>
+  <field name="street">250 East Broad Street</field>
+  <field name="city">Westfield</field>
+  <field name="zip">07090</field>
+  <field name="lat">40.6526</field>
+  <field name="lng">-74.3474</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">181</field>
+  <field name="cinema">United Artists Southampton</field>
+  <field name="street">43 Hill Street</field>
+  <field name="city">Southampton</field>
+  <field name="zip">11968</field>
+  <field name="lat">40.8837</field>
+  <field name="lng">-72.3943</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">182</field>
+  <field name="cinema">Clearview Mamaroneck Playhouse</field>
+  <field name="street">243 Mamaroneck Avenue</field>
+  <field name="city">Mamaroneck</field>
+  <field name="zip">10543</field>
+  <field name="lat">40.9504</field>
+  <field name="lng">-73.7339</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">183</field>
+  <field name="cinema">United Artists Midway Stadium 9</field>
+  <field name="street">108-22 Queens Boulevard</field>
+  <field name="city">Forest Hills</field>
+  <field name="zip">11375</field>
+  <field name="lat">40.721</field>
+  <field name="lng">-73.8435</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">184</field>
+  <field name="cinema">Clearview Bronxville Cinemas</field>
+  <field name="street">84 Kraft Ave</field>
+  <field name="city">Bronxville</field>
+  <field name="zip">10708</field>
+  <field name="lat">40.9401</field>
+  <field name="lng">-73.8345</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">185</field>
+  <field name="cinema">United Artists Patchogue</field>
+  <field name="street">600 S Service Rd</field>
+  <field name="city">Patchogue</field>
+  <field name="zip">11772</field>
+  <field name="lat">40.7754</field>
+  <field name="lng">-73.0375</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">186</field>
+  <field name="cinema">United Artists Yonkers</field>
+  <field name="street">2548 Central Park Avenue</field>
+  <field name="city">Yonkers</field>
+  <field name="zip">10710</field>
+  <field name="lat">40.9819</field>
+  <field name="lng">-73.8288</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">187</field>
+  <field name="cinema">United Artists Brandon Cinemas</field>
+  <field name="street">70-20 Austin Street</field>
+  <field name="city">Forest Hills</field>
+  <field name="zip">11375</field>
+  <field name="lat">40.7207</field>
+  <field name="lng">-73.8464</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">188</field>
+  <field name="cinema">Trademark Cinemas Movies at Jefferson</field>
+  <field name="street">650 Lee Boulevard</field>
+  <field name="city">Yorktown Heights</field>
+  <field name="zip">10598</field>
+  <field name="lat">41.3264</field>
+  <field name="lng">-73.8071</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">189</field>
+  <field name="cinema">AMC Theatres Bay Plaza Cinemas</field>
+  <field name="street">2210 Bartow Avenue</field>
+  <field name="city">Bronx</field>
+  <field name="zip">10475</field>
+  <field name="lat">40.8688</field>
+  <field name="lng">-73.8236</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">190</field>
+  <field name="cinema">Clearview Babylon</field>
+  <field name="street">34 Main Street</field>
+  <field name="city">Babylon</field>
+  <field name="zip">11702</field>
+  <field name="lat">40.6654</field>
+  <field name="lng">-73.3442</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">191</field>
+  <field name="cinema">Movieworld Douglaston</field>
+  <field name="street">242-02 61st Avenue, Douglaston Mall</field>
+  <field name="city">Douglaston</field>
+  <field name="zip">11363</field>
+  <field name="lat">40.7556</field>
+  <field name="lng">-73.7386</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">192</field>
+  <field name="cinema">United Artists Lynbrook</field>
+  <field name="street">321 Merrick Road</field>
+  <field name="city">Lynbrook</field>
+  <field name="zip">11563</field>
+  <field name="lat">40.6576</field>
+  <field name="lng">-73.6736</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">193</field>
+  <field name="cinema">AMC Theatres 19th St. East</field>
+  <field name="street">890 Broadway</field>
+  <field name="city">New York</field>
+  <field name="zip">10003</field>
+  <field name="lat">40.7386</field>
+  <field name="lng">-73.9899</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">194</field>
+  <field name="cinema">National Amusements Showcase Cinemas Orange</field>
+  <field name="street">41 Marsh Hill Rd.</field>
+  <field name="city">Orange</field>
+  <field name="zip">06477</field>
+  <field name="lat">41.2488</field>
+  <field name="lng">-72.9992</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">195</field>
+  <field name="cinema">National Amusements Showcase Cinemas North Haven</field>
+  <field name="street">550 Universal Drive North</field>
+  <field name="city">North Haven</field>
+  <field name="zip">06473</field>
+  <field name="lat">41.359</field>
+  <field name="lng">-72.8717</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">196</field>
+  <field name="cinema">South Bay Cinemas</field>
+  <field name="street">495 W Montauk Hwy</field>
+  <field name="city">West Babylon</field>
+  <field name="zip">11704</field>
+  <field name="lat">40.6888</field>
+  <field name="lng">-73.3391</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">197</field>
+  <field name="cinema">Clearview 62nd and Broadway</field>
+  <field name="street">1871 Broadway</field>
+  <field name="city">New York</field>
+  <field name="zip">10023</field>
+  <field name="lat">40.772</field>
+  <field name="lng">-73.9821</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">198</field>
+  <field name="cinema">Independent Glen Cove Cinemas</field>
+  <field name="street">5 School Street</field>
+  <field name="city">Glen Cove</field>
+  <field name="zip">11542</field>
+  <field name="lat">40.8643</field>
+  <field name="lng">-73.6318</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">199</field>
+  <field name="cinema">National Amusements Cross County</field>
+  <field name="street">2 South Drive</field>
+  <field name="city">Yonkers</field>
+  <field name="zip">10704</field>
+  <field name="lat">40.9266</field>
+  <field name="lng">-73.8573</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">200</field>
+  <field name="cinema">Lesser New Main Street Cinemas</field>
+  <field name="street">72-66 Main Street</field>
+  <field name="city">Kew Gardens</field>
+  <field name="zip">11415</field>
+  <field name="lat">40.7289</field>
+  <field name="lng">-73.8257</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">201</field>
+  <field name="cinema">Elwood Cinema</field>
+  <field name="street">1950 Jericho Tpke</field>
+  <field name="city">East Northport</field>
+  <field name="zip">11731</field>
+  <field name="lat">40.8381</field>
+  <field name="lng">-73.3321</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">202</field>
+  <field name="cinema">Clearview Squire  Cinemas</field>
+  <field name="street">115 Middle Neck Road</field>
+  <field name="city">Great Neck</field>
+  <field name="zip">11020</field>
+  <field name="lat">40.7899</field>
+  <field name="lng">-73.7302</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">203</field>
+  <field name="cinema">Clearview Port Washington Cinemas</field>
+  <field name="street">116 Main Street</field>
+  <field name="city">Port Washington</field>
+  <field name="zip">11050</field>
+  <field name="lat">40.8303</field>
+  <field name="lng">-73.6904</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">204</field>
+  <field name="cinema">Clearview Herricks Cinema 4</field>
+  <field name="street">3324 Hillside Ave.</field>
+  <field name="city">New Hyde Park</field>
+  <field name="zip">11040</field>
+  <field name="lat">40.7532</field>
+  <field name="lng">-73.6581</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">205</field>
+  <field name="cinema">Clearview Grand Ave Cinemas</field>
+  <field name="street">1841 Grand Ave</field>
+  <field name="city">Baldwin</field>
+  <field name="zip">11510</field>
+  <field name="lat">40.6658</field>
+  <field name="lng">-73.6077</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">206</field>
+  <field name="cinema">Clearview Soundview</field>
+  <field name="street">7-9 Soundview Market Place</field>
+  <field name="city">Port Washington</field>
+  <field name="zip">11050</field>
+  <field name="lat">40.8348</field>
+  <field name="lng">-73.6939</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">207</field>
+  <field name="cinema">Lincoln Cinemas</field>
+  <field name="street">838 Kearny Ave</field>
+  <field name="city">Kearny</field>
+  <field name="zip">07032</field>
+  <field name="lat">40.7806</field>
+  <field name="lng">-74.1392</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">208</field>
+  <field name="cinema">Independent Hudson Cinemas</field>
+  <field name="street">Hudson Mall, Rte 440 South</field>
+  <field name="city">Jersey City</field>
+  <field name="zip">07304</field>
+  <field name="lat">40.7175</field>
+  <field name="lng">-74.0731</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">209</field>
+  <field name="cinema">AMC Loews Mountainside</field>
+  <field name="street">1021 Us Highway 22</field>
+  <field name="city">Mountainside</field>
+  <field name="zip">07092</field>
+  <field name="lat">40.6841</field>
+  <field name="lng">-74.3365</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">210</field>
+  <field name="cinema">Clearview Cinema 23</field>
+  <field name="street">101 Pompton Ave.</field>
+  <field name="city">Cedar Grove</field>
+  <field name="zip">07009</field>
+  <field name="lat">40.8339</field>
+  <field name="lng">-74.227</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">211</field>
+  <field name="cinema">Garden Homes Mgmnt Corp. Garden Cinemas - Norwalk</field>
+  <field name="street">Issac Street</field>
+  <field name="city">Norwalk</field>
+  <field name="zip">06851</field>
+  <field name="lat">41.1329</field>
+  <field name="lng">-73.4064</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">212</field>
+  <field name="cinema">CJM Hawthorne Fiveplex</field>
+  <field name="street">300 Lafayette Ave</field>
+  <field name="city">Hawthorne</field>
+  <field name="zip">07506</field>
+  <field name="lat">40.9484</field>
+  <field name="lng">-74.1554</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">213</field>
+  <field name="cinema">CJM Maplewood Sixplex</field>
+  <field name="street">155 Maplewood Ave</field>
+  <field name="city">Maplewood</field>
+  <field name="zip">07040</field>
+  <field name="lat">40.7316</field>
+  <field name="lng">-74.2766</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">214</field>
+  <field name="cinema">AMC Loews New Brunswick Theatre</field>
+  <field name="street">17 US Highway #1</field>
+  <field name="city">New Brunswick</field>
+  <field name="zip">08902</field>
+  <field name="lat">40.4913</field>
+  <field name="lng">-74.4135</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">215</field>
+  <field name="cinema">Clearview Roslyn Theatre</field>
+  <field name="street">20 Tower St</field>
+  <field name="city">Roslyn</field>
+  <field name="zip">11576</field>
+  <field name="lat">40.7996</field>
+  <field name="lng">-73.6505</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">216</field>
+  <field name="cinema">Clearview Franklin Square Theatres</field>
+  <field name="street">989 Hempstead Turnpike</field>
+  <field name="city">Franklin Square</field>
+  <field name="zip">11010</field>
+  <field name="lat">40.7074</field>
+  <field name="lng">-73.6768</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">217</field>
+  <field name="cinema">Bethel Cinema</field>
+  <field name="street">269 Greenwood Ave</field>
+  <field name="city">Bethel</field>
+  <field name="zip">06801</field>
+  <field name="lat">41.3736</field>
+  <field name="lng">-73.4219</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">218</field>
+  <field name="cinema">The Pavilion</field>
+  <field name="street">188 Prospect Park West</field>
+  <field name="city">Brooklyn</field>
+  <field name="zip">11215</field>
+  <field name="lat">40.6616</field>
+  <field name="lng">-73.9793</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">219</field>
+  <field name="cinema">AMC Loews Galleria Metroplex</field>
+  <field name="street">1 Galleria Drive</field>
+  <field name="city">Middletown</field>
+  <field name="zip">10940</field>
+  <field name="lat">41.4534</field>
+  <field name="lng">-74.3648</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">220</field>
+  <field name="cinema">National Amusements Mutiplex Cinemas @ Towne Center Plaza</field>
+  <field name="street">319 Us Highway 130</field>
+  <field name="city">East Windsor</field>
+  <field name="zip">08520</field>
+  <field name="lat">40.2613</field>
+  <field name="lng">-74.5222</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">221</field>
+  <field name="cinema">Atlantic Highlands Cinema 5</field>
+  <field name="street">82 1st Ave</field>
+  <field name="city">Atlantic Highlands</field>
+  <field name="zip">07716</field>
+  <field name="lat">40.4107</field>
+  <field name="lng">-74.0393</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">222</field>
+  <field name="cinema">AMC Loews Roosevelt Raceway</field>
+  <field name="street">1025 Corporate Drive</field>
+  <field name="city">Westbury</field>
+  <field name="zip">11590</field>
+  <field name="lat">40.741</field>
+  <field name="lng">-73.598</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">223</field>
+  <field name="cinema">Cinema Arts Centre Cinema Arts Centre\New Community</field>
+  <field name="street">423 Park Ave</field>
+  <field name="city">Huntington</field>
+  <field name="zip">11743</field>
+  <field name="lat">40.8741</field>
+  <field name="lng">-73.4132</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">224</field>
+  <field name="cinema">Cinemart Cinemart Cinemas</field>
+  <field name="street">106-03 Metropolitan Avenue</field>
+  <field name="city">Forest Hills</field>
+  <field name="zip">11375</field>
+  <field name="lat">40.7098</field>
+  <field name="lng">-73.8473</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">225</field>
+  <field name="cinema">Bowtie South Norwalk Regent</field>
+  <field name="street">64 North Main Street</field>
+  <field name="city">South Norwalk</field>
+  <field name="zip">06854</field>
+  <field name="lat">41.1006</field>
+  <field name="lng">-73.4194</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">226</field>
+  <field name="cinema">Cinema Village</field>
+  <field name="street">22 East 12th Street</field>
+  <field name="city">New York</field>
+  <field name="zip">10003</field>
+  <field name="lat">40.7342</field>
+  <field name="lng">-73.9934</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">227</field>
+  <field name="cinema">Clearview Allwood Cinema 6</field>
+  <field name="street">96 Market Street</field>
+  <field name="city">Clifton</field>
+  <field name="zip">07012</field>
+  <field name="lat">40.8459</field>
+  <field name="lng">-74.1623</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">228</field>
+  <field name="cinema">Clearview Washington Township Cinemas</field>
+  <field name="street">249 Pascack Rd</field>
+  <field name="city">Washington Township</field>
+  <field name="zip">07675</field>
+  <field name="lat">40.9845</field>
+  <field name="lng">-74.0642</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">229</field>
+  <field name="cinema">Clearview New City Cinemas 6</field>
+  <field name="street">202 South Main Street</field>
+  <field name="city">New City</field>
+  <field name="zip">10956</field>
+  <field name="lat">41.1402</field>
+  <field name="lng">-73.9906</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">230</field>
+  <field name="cinema">Clearview Succasunna Cinema 10</field>
+  <field name="street">21 Sunset Strip</field>
+  <field name="city">Succasunna</field>
+  <field name="zip">07876</field>
+  <field name="lat">40.8555</field>
+  <field name="lng">-74.6541</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">231</field>
+  <field name="cinema">Clearview Cinema 100 Twin</field>
+  <field name="street">93 Knollwood Road</field>
+  <field name="city">White Plains</field>
+  <field name="zip">10607</field>
+  <field name="lat">41.0389</field>
+  <field name="lng">-73.8079</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">232</field>
+  <field name="cinema">Clearview Rye Ridge Cinema</field>
+  <field name="street">One Rye Ridge Plaza</field>
+  <field name="city">Rye Brook</field>
+  <field name="zip">10580</field>
+  <field name="lat">40.9767</field>
+  <field name="lng">-73.6903</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">233</field>
+  <field name="cinema">City Cinemas Village East</field>
+  <field name="street">181 2nd Avenue</field>
+  <field name="city">New York</field>
+  <field name="zip">10003</field>
+  <field name="lat">40.7307</field>
+  <field name="lng">-73.9863</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">234</field>
+  <field name="cinema">Newark Screens on Springfield</field>
+  <field name="street">360 Springfield Ave</field>
+  <field name="city">Newark</field>
+  <field name="zip">07103</field>
+  <field name="lat">40.7333</field>
+  <field name="lng">-74.1953</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">235</field>
+  <field name="cinema">United Artists Hylan Plaza</field>
+  <field name="street">107 Mill Road</field>
+  <field name="city">Staten Island</field>
+  <field name="zip">10306</field>
+  <field name="lat">40.5638</field>
+  <field name="lng">-74.1105</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">236</field>
+  <field name="cinema">Clearview Chester Cinema 6</field>
+  <field name="street">Route 206 - Chester Springs Mall</field>
+  <field name="city">Chester</field>
+  <field name="zip">07930</field>
+  <field name="lat">40.789</field>
+  <field name="lng">-74.6805</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">237</field>
+  <field name="cinema">Movie City - Edison</field>
+  <field name="street">1655 Oak Tree Road</field>
+  <field name="city">Edison</field>
+  <field name="zip">08818</field>
+  <field name="lat">40.5728</field>
+  <field name="lng">-74.3397</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">238</field>
+  <field name="cinema">Cedar Lane Cinemas</field>
+  <field name="street">503 Cedar Lane</field>
+  <field name="city">Teaneck</field>
+  <field name="zip">07666</field>
+  <field name="lat">40.8897</field>
+  <field name="lng">-74.0236</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">239</field>
+  <field name="cinema">Northshore Towers Twin Cinema</field>
+  <field name="street">272-40 Grand Central Parkway</field>
+  <field name="city">Floral Park</field>
+  <field name="zip">11005</field>
+  <field name="lat">40.7594</field>
+  <field name="lng">-73.7145</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">240</field>
+  <field name="cinema">Creative Entertainment New Kent Triplex</field>
+  <field name="street">1168 Coney Island Ave</field>
+  <field name="city">Brooklyn</field>
+  <field name="zip">11230</field>
+  <field name="lat">40.6291</field>
+  <field name="lng">-73.9661</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">241</field>
+  <field name="cinema">Garden Homes Mgmnt Corp. State Cinema - Stamford</field>
+  <field name="street">990 Hope Street</field>
+  <field name="city">Stamford</field>
+  <field name="zip">06907</field>
+  <field name="lat">41.0927</field>
+  <field name="lng">-73.518</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">242</field>
+  <field name="cinema">Montgomery Cinemas</field>
+  <field name="street">Box 19</field>
+  <field name="city">Belle Mead</field>
+  <field name="zip">08502</field>
+  <field name="lat">40.4643</field>
+  <field name="lng">-74.6354</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">243</field>
+  <field name="cinema">Pelham Picture House</field>
+  <field name="street">175 Wolfs Ln</field>
+  <field name="city">Pelham</field>
+  <field name="zip">10803</field>
+  <field name="lat">40.9065</field>
+  <field name="lng">-73.8116</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">244</field>
+  <field name="cinema">Regal Cinemas Hadley Center 11</field>
+  <field name="street">1000 Corporate Ct</field>
+  <field name="city">South Plainfield</field>
+  <field name="zip">07080</field>
+  <field name="lat">40.5497</field>
+  <field name="lng">-74.4307</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">245</field>
+  <field name="cinema">Galaxy Lafayette Theatre</field>
+  <field name="street">Rte 59</field>
+  <field name="city">Suffern</field>
+  <field name="zip">10901</field>
+  <field name="lat">41.1247</field>
+  <field name="lng">-74.118</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">246</field>
+  <field name="cinema">AMC Loews East Hanover</field>
+  <field name="street">145 Route 10</field>
+  <field name="city">East Hanover</field>
+  <field name="zip">07936</field>
+  <field name="lat">40.818</field>
+  <field name="lng">-74.3652</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">247</field>
+  <field name="cinema">AMC Loews Village 7</field>
+  <field name="street">66 3rd Ave</field>
+  <field name="city">New York</field>
+  <field name="zip">10003</field>
+  <field name="lat">40.7314</field>
+  <field name="lng">-73.9886</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">248</field>
+  <field name="cinema">National Amusements Concourse Plaza Multiplex Cinemas</field>
+  <field name="street">214 East 161st Street</field>
+  <field name="city">Bronx</field>
+  <field name="zip">10451</field>
+  <field name="lat">40.8261</field>
+  <field name="lng">-73.9207</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">249</field>
+  <field name="cinema">Walter Reade At Lincoln Center</field>
+  <field name="street">165 W 65th Street</field>
+  <field name="city">New York</field>
+  <field name="zip">10023</field>
+  <field name="lat">40.7738</field>
+  <field name="lng">-73.984</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">250</field>
+  <field name="cinema">Brooklyn Heights Cinema The Brooklyn Heights Cinema</field>
+  <field name="street">70 Henry Street</field>
+  <field name="city">Brooklyn</field>
+  <field name="zip">11207</field>
+  <field name="lat">40.6989</field>
+  <field name="lng">-73.9924</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">251</field>
+  <field name="cinema">Creative Entertainment New Park Cinema</field>
+  <field name="street">23 West Westfield Avenue</field>
+  <field name="city">Roselle Park</field>
+  <field name="zip">07204</field>
+  <field name="lat">40.6616</field>
+  <field name="lng">-74.2649</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">252</field>
+  <field name="cinema">Clearview First &amp; 62nd Cinemas</field>
+  <field name="street">400 East 62nd Street</field>
+  <field name="city">New York</field>
+  <field name="zip">10021</field>
+  <field name="lat">40.7614</field>
+  <field name="lng">-73.9607</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">253</field>
+  <field name="cinema">Newton Theatre</field>
+  <field name="street">234 Spring Street</field>
+  <field name="city">Newton</field>
+  <field name="zip">07860</field>
+  <field name="lat">41.0561</field>
+  <field name="lng">-74.7499</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">254</field>
+  <field name="cinema">National Amusements Broadway Multiplex Cinemas</field>
+  <field name="street">955 Broadway Mall</field>
+  <field name="city">Hicksville</field>
+  <field name="zip">11801</field>
+  <field name="lat">40.7727</field>
+  <field name="lng">-73.5346</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">255</field>
+  <field name="cinema">Berkeley Cinema Berkeley Cinema</field>
+  <field name="street">450 Springfield Avenue</field>
+  <field name="city">Berkeley Heights</field>
+  <field name="zip">07922</field>
+  <field name="lat">40.6771</field>
+  <field name="lng">-74.45</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">256</field>
+  <field name="cinema">AMC Loews Orpheum 7</field>
+  <field name="street">1538 3rd Avenue</field>
+  <field name="city">New York</field>
+  <field name="zip">10028</field>
+  <field name="lat">40.7792</field>
+  <field name="lng">-73.9539</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">257</field>
+  <field name="cinema">AMC Loews Monmouth Mall 15</field>
+  <field name="street">Intersection Rt 35 &amp; Rt 36</field>
+  <field name="city">Eatontown</field>
+  <field name="zip">07724</field>
+  <field name="lat">40.2964</field>
+  <field name="lng">-74.0715</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">258</field>
+  <field name="cinema">AMC Loews Menlo Park Cinemas</field>
+  <field name="street">390 Menlo Park Mall, Us Rte 1</field>
+  <field name="city">Edison</field>
+  <field name="zip">08837</field>
+  <field name="lat">40.5285</field>
+  <field name="lng">-74.34</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">259</field>
+  <field name="cinema">Abby Cinema</field>
+  <field name="street">35 Marshall Hill Rd</field>
+  <field name="city">West Milford</field>
+  <field name="zip">07480</field>
+  <field name="lat">41.1368</field>
+  <field name="lng">-74.3429</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">260</field>
+  <field name="cinema">Creative Entertainment Coliseum Quad</field>
+  <field name="street">703 West 181st Street</field>
+  <field name="city">New York</field>
+  <field name="zip">10034</field>
+  <field name="lat">40.8503</field>
+  <field name="lng">-73.936</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">261</field>
+  <field name="cinema">Williams Center Cinema</field>
+  <field name="street">One Williams Plaza</field>
+  <field name="city">Rutherford</field>
+  <field name="zip">07070</field>
+  <field name="lat">40.8245</field>
+  <field name="lng">-74.1089</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">262</field>
+  <field name="cinema">Queens Circuit Jackson Triplex</field>
+  <field name="street">40-31 82nd Street</field>
+  <field name="city">Jackson Heights</field>
+  <field name="zip">11372</field>
+  <field name="lat">40.747</field>
+  <field name="lng">-73.8837</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">263</field>
+  <field name="cinema">Queens Circuit Ridgewood Fiveplex</field>
+  <field name="street">55-27 Myrtle Ave.</field>
+  <field name="city">Ridgewood</field>
+  <field name="zip">11385</field>
+  <field name="lat">40.7</field>
+  <field name="lng">-73.9074</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">264</field>
+  <field name="cinema">Independent Darien Playhouse</field>
+  <field name="street">1077 Post Rd</field>
+  <field name="city">Darien</field>
+  <field name="zip">06820</field>
+  <field name="lat">41.0745</field>
+  <field name="lng">-73.4731</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">265</field>
+  <field name="cinema">Clearview Bernardsville Cinema 3</field>
+  <field name="street">Route 202 In The Center Of Town</field>
+  <field name="city">Bernardsville</field>
+  <field name="zip">07924</field>
+  <field name="lat">40.724</field>
+  <field name="lng">-74.5797</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">266</field>
+  <field name="cinema">Stampfel Movies Malverne Quad Cinemas</field>
+  <field name="street">350 Hempstead Avenue</field>
+  <field name="city">Malverne</field>
+  <field name="zip">11565</field>
+  <field name="lat">40.6773</field>
+  <field name="lng">-73.6679</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">267</field>
+  <field name="cinema">Independent Long Beach Cinema 4</field>
+  <field name="street">179 East Park Ave</field>
+  <field name="city">Long Beach</field>
+  <field name="zip">11561</field>
+  <field name="lat">40.5883</field>
+  <field name="lng">-73.6573</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">268</field>
+  <field name="cinema">Stampfel Movies Bellmore Movies</field>
+  <field name="street">222 Pettit Ave</field>
+  <field name="city">Bellmore</field>
+  <field name="zip">11710</field>
+  <field name="lat">40.669</field>
+  <field name="lng">-73.5301</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">269</field>
+  <field name="cinema">Clearview Madison Cinema 4</field>
+  <field name="street">14 Lincoln Pl</field>
+  <field name="city">Madison</field>
+  <field name="zip">07940</field>
+  <field name="lat">40.7581</field>
+  <field name="lng">-74.4156</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">270</field>
+  <field name="cinema">Clearview Bergenfield Theater</field>
+  <field name="street">58 South Washington Avenue</field>
+  <field name="city">Bergenfield</field>
+  <field name="zip">07621</field>
+  <field name="lat">40.926</field>
+  <field name="lng">-73.9966</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">271</field>
+  <field name="cinema">Clearview Closter Cinema 4</field>
+  <field name="street">130 Vervalen St</field>
+  <field name="city">Closter</field>
+  <field name="zip">07624</field>
+  <field name="lat">40.9686</field>
+  <field name="lng">-73.9556</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">272</field>
+  <field name="cinema">Bowtie Royale 6</field>
+  <field name="street">542 Westport Avenue</field>
+  <field name="city">Norwalk</field>
+  <field name="zip">06851</field>
+  <field name="lat">41.1277</field>
+  <field name="lng">-73.3839</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">273</field>
+  <field name="cinema">National Amusements Hazlet Multiplex Cinemas</field>
+  <field name="street">2821 State Route 35</field>
+  <field name="city">Hazlet</field>
+  <field name="zip">07730</field>
+  <field name="lat">40.4172</field>
+  <field name="lng">-74.1709</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">274</field>
+  <field name="cinema">AMC Loews Freehold Metroplex</field>
+  <field name="street">101 Trotters Way</field>
+  <field name="city">Freehold</field>
+  <field name="zip">07728</field>
+  <field name="lat">40.2512</field>
+  <field name="lng">-74.2956</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">275</field>
+  <field name="cinema">Clearview Tenafly Cinema 4</field>
+  <field name="street">4 1/2 West Railroad Ave</field>
+  <field name="city">Tenafly</field>
+  <field name="zip">07670</field>
+  <field name="lat">40.922</field>
+  <field name="lng">-73.9631</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">276</field>
+  <field name="cinema">Ramsey Cinema</field>
+  <field name="street">125 East Main Street</field>
+  <field name="city">Ramsey</field>
+  <field name="zip">07446</field>
+  <field name="lat">41.0576</field>
+  <field name="lng">-74.1385</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">277</field>
+  <field name="cinema">Sayville Theatre Sayville Theatre</field>
+  <field name="street">103 Railroad Ave</field>
+  <field name="city">Sayville</field>
+  <field name="zip">11782</field>
+  <field name="lat">40.7377</field>
+  <field name="lng">-73.0831</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">278</field>
+  <field name="cinema">Summit Quadplex</field>
+  <field name="street">1214 Summit Avenue</field>
+  <field name="city">Union City</field>
+  <field name="zip">07087</field>
+  <field name="lat">40.7613</field>
+  <field name="lng">-74.0416</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">279</field>
+  <field name="cinema">Mayfair Triplex</field>
+  <field name="street">6405 Park Avenue</field>
+  <field name="city">West New York</field>
+  <field name="zip">07093</field>
+  <field name="lat">40.789</field>
+  <field name="lng">-74.0062</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">280</field>
+  <field name="cinema">Atrium Cinemas Atrium Cinemas</field>
+  <field name="street">680 Arthur Kill Road</field>
+  <field name="city">Staten Island</field>
+  <field name="zip">10308</field>
+  <field name="lat">40.5602</field>
+  <field name="lng">-74.1638</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">281</field>
+  <field name="cinema">Clearview Kinnelon 11</field>
+  <field name="street">25 Kinnelon Road</field>
+  <field name="city">Kinnelon</field>
+  <field name="zip">07405</field>
+  <field name="lat">41.0038</field>
+  <field name="lng">-74.3628</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">282</field>
+  <field name="cinema">Carmike Cinemas Olean - 8</field>
+  <field name="street">1875 Cinema Drive</field>
+  <field name="city">Olean</field>
+  <field name="zip">14760</field>
+  <field name="lat">42.0799</field>
+  <field name="lng">-78.4668</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">283</field>
+  <field name="cinema">Regal (Hoyts) Arnot Mall 10</field>
+  <field name="street">3300 Chamber Road in the Arnot Mall</field>
+  <field name="city">Horseheads</field>
+  <field name="zip">14845</field>
+  <field name="lat">42.1813</field>
+  <field name="lng">-76.8344</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">284</field>
+  <field name="cinema">Regal (Hoyts) Pyramid Mall 10</field>
+  <field name="street">40 Catherwood Road, in the Pyramid Mall</field>
+  <field name="city">Ithaca</field>
+  <field name="zip">14850</field>
+  <field name="lat">42.4496</field>
+  <field name="lng">-76.4943</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">285</field>
+  <field name="cinema">Cinema Saver - Endicott</field>
+  <field name="street">19 Madison Ave</field>
+  <field name="city">Endicott</field>
+  <field name="zip">13760</field>
+  <field name="lat">42.1045</field>
+  <field name="lng">-76.0494</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">286</field>
+  <field name="cinema">Crystal Cinemas</field>
+  <field name="street">94 Victory Highway</field>
+  <field name="city">Painted Post</field>
+  <field name="zip">14870</field>
+  <field name="lat">42.1703</field>
+  <field name="lng">-77.1033</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">287</field>
+  <field name="cinema">Dipson Chatauqua Mall I &amp; II</field>
+  <field name="street">500 Chautauqua Mall</field>
+  <field name="city">Lakewood</field>
+  <field name="zip">14750</field>
+  <field name="lat">42.0981</field>
+  <field name="lng">-79.2996</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">288</field>
+  <field name="cinema">The Heights Theatre</field>
+  <field name="street">210 E 14th St</field>
+  <field name="city">Elmira</field>
+  <field name="zip">14903</field>
+  <field name="lat">42.1295</field>
+  <field name="lng">-76.8207</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">289</field>
+  <field name="cinema">Dipson Hornell Cinema I, II &amp; III</field>
+  <field name="street">190 Main Street</field>
+  <field name="city">Hornell</field>
+  <field name="zip">14843</field>
+  <field name="lat">42.3266</field>
+  <field name="lng">-77.6589</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">290</field>
+  <field name="cinema">Dipson Lakewood Cinema 6</field>
+  <field name="street">171-3 Fairmount Avenue West</field>
+  <field name="city">Lakewood</field>
+  <field name="zip">14750</field>
+  <field name="lat">42.0986</field>
+  <field name="lng">-79.3428</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">291</field>
+  <field name="cinema">Elmira Bargain Drive - In</field>
+  <field name="street">Rt. 352 Big Flats</field>
+  <field name="city">Big Flats</field>
+  <field name="zip">14814</field>
+  <field name="lat">42.1445</field>
+  <field name="lng">-76.9504</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">292</field>
+  <field name="cinema">Cinemapolis</field>
+  <field name="street">117 East State Street</field>
+  <field name="city">Ithaca</field>
+  <field name="zip">14850</field>
+  <field name="lat">42.4395</field>
+  <field name="lng">-76.4986</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">293</field>
+  <field name="cinema">Fall Creek Pictures</field>
+  <field name="street">1201 North Tioga</field>
+  <field name="city">Ithaca</field>
+  <field name="zip">14850</field>
+  <field name="lat">42.4522</field>
+  <field name="lng">-76.4976</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">294</field>
+  <field name="cinema">AMC Loews Town Square 9</field>
+  <field name="street">2425 Vestal Parkway</field>
+  <field name="city">Vestal</field>
+  <field name="zip">13850</field>
+  <field name="lat">42.0962</field>
+  <field name="lng">-76.0017</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">295</field>
+  <field name="cinema">Cornell Cinema</field>
+  <field name="street">104 Willard Straight Hall</field>
+  <field name="city">Ithaca</field>
+  <field name="zip">14853</field>
+  <field name="lat">42.4474</field>
+  <field name="lng">-76.4782</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">296</field>
+  <field name="cinema">Regal (Hoyts) Champlain Centre Cinemas 8</field>
+  <field name="street">60 Smithfield Boulevard</field>
+  <field name="city">Plattsburgh</field>
+  <field name="zip">12901</field>
+  <field name="lat">44.7025</field>
+  <field name="lng">-73.4946</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">297</field>
+  <field name="cinema">American Theatre - Canton</field>
+  <field name="street">96 Miain Street</field>
+  <field name="city">Canton</field>
+  <field name="zip">13617</field>
+  <field name="lat">44.5958</field>
+  <field name="lng">-75.1695</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">298</field>
+  <field name="cinema">Ogdensburg Cinemas</field>
+  <field name="street">Ogdensburg Mall</field>
+  <field name="city">Ogdensburg</field>
+  <field name="zip">13669</field>
+  <field name="lat">44.6803</field>
+  <field name="lng">-75.4875</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">299</field>
+  <field name="cinema">Massens Movieplex 8</field>
+  <field name="street">Route 37 &amp; 420 in the Harte Haven Shopping Center</field>
+  <field name="city">Massena</field>
+  <field name="zip">13662</field>
+  <field name="lat">44.9373</field>
+  <field name="lng">-74.8707</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">300</field>
+  <field name="cinema">Roxy - Potsdam</field>
+  <field name="street">20 Main Street</field>
+  <field name="city">Potsdam</field>
+  <field name="zip">13676</field>
+  <field name="lat">44.6711</field>
+  <field name="lng">-74.9864</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">301</field>
+  <field name="cinema">State Theatre - Tupper Lake</field>
+  <field name="street">75 Park St.</field>
+  <field name="city">Tupper Lake</field>
+  <field name="zip">12986</field>
+  <field name="lat">44.2243</field>
+  <field name="lng">-74.4616</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">302</field>
+  <field name="cinema">Regal (Hoyts) Carousel Mall Cinemas 19</field>
+  <field name="street">9586 Carousel Center</field>
+  <field name="city">Syracuse</field>
+  <field name="zip">13290</field>
+  <field name="lat">43.0665</field>
+  <field name="lng">-76.173</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">303</field>
+  <field name="cinema">Regal (Hoyts) Great Northern 10</field>
+  <field name="street">4081 Route 31</field>
+  <field name="city">Clay</field>
+  <field name="zip">13041</field>
+  <field name="lat">43.175</field>
+  <field name="lng">-76.1747</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">304</field>
+  <field name="cinema">Regal (Hoyts) Shoppingtown Cinemas 10</field>
+  <field name="street">3649 Erie Boulevard</field>
+  <field name="city">Dewitt</field>
+  <field name="zip">13214</field>
+  <field name="lat">43.0376</field>
+  <field name="lng">-76.0657</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">305</field>
+  <field name="cinema">Palace Theatre - Syracuse</field>
+  <field name="street">2384 James Street</field>
+  <field name="city">Syracuse</field>
+  <field name="zip">13206</field>
+  <field name="lat">43.0686</field>
+  <field name="lng">-76.1133</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">306</field>
+  <field name="cinema">Westcott Cinema</field>
+  <field name="street">524 Westcott Cinema</field>
+  <field name="city">Syracuse</field>
+  <field name="zip">13210</field>
+  <field name="lat">43.0416</field>
+  <field name="lng">-76.1197</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">307</field>
+  <field name="cinema">Bristol Omnitheatre - Most</field>
+  <field name="street">500 Franklin St.</field>
+  <field name="city">Syracuse</field>
+  <field name="zip">13202</field>
+  <field name="lat">43.0476</field>
+  <field name="lng">-76.1558</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">308</field>
+  <field name="cinema">Rome Cinemas</field>
+  <field name="street">1122 Erie Blvd West</field>
+  <field name="city">Rome</field>
+  <field name="zip">13440</field>
+  <field name="lat">43.2231</field>
+  <field name="lng">-75.4837</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">309</field>
+  <field name="cinema">Auburn Movieplex 10</field>
+  <field name="street">Grant Avenue Plaza, Route 5</field>
+  <field name="city">Auburn</field>
+  <field name="zip">13021</field>
+  <field name="lat">42.9253</field>
+  <field name="lng">-76.5611</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">310</field>
+  <field name="cinema">Plaza 6 Cinema</field>
+  <field name="street">Tompkins &amp; Glenwood</field>
+  <field name="city">Cortland</field>
+  <field name="zip">13045</field>
+  <field name="lat">42.5854</field>
+  <field name="lng">-76.1807</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">311</field>
+  <field name="cinema">Hollywood Theatre</field>
+  <field name="street">2221 Brewerton RD.</field>
+  <field name="city">Mattydale</field>
+  <field name="zip">13211</field>
+  <field name="lat">43.0989</field>
+  <field name="lng">-76.1455</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">312</field>
+  <field name="cinema">Manlius Art Cinema</field>
+  <field name="street">135 East Seneca Street</field>
+  <field name="city">Manlius</field>
+  <field name="zip">13104</field>
+  <field name="lat">43.0016</field>
+  <field name="lng">-75.9786</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">313</field>
+  <field name="cinema">Glenwood Movieplex Oneida</field>
+  <field name="street">Route 5 &amp; 46 - Glenwood Shopping Plaza</field>
+  <field name="city">Oneida</field>
+  <field name="zip">13421</field>
+  <field name="lat">43.0818</field>
+  <field name="lng">-75.6516</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">314</field>
+  <field name="cinema">Oswego 7</field>
+  <field name="street">138 West 2nd Street</field>
+  <field name="city">Oswego</field>
+  <field name="zip">13126</field>
+  <field name="lat">43.456</field>
+  <field name="lng">-76.5122</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">315</field>
+  <field name="cinema">Tri-County Theatre</field>
+  <field name="street">197 Downer Street</field>
+  <field name="city">Baldwinsville</field>
+  <field name="zip">13027</field>
+  <field name="lat">43.1517</field>
+  <field name="lng">-76.3453</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">316</field>
+  <field name="cinema">Regal (Hoyts) Salmon Run Cinema 8</field>
+  <field name="street">Arsenal St. Road</field>
+  <field name="city">Watertown</field>
+  <field name="zip">13601</field>
+  <field name="lat">43.9758</field>
+  <field name="lng">-75.9128</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">317</field>
+  <field name="cinema">Norma Jean's Amsterdam Theatre</field>
+  <field name="street">136 Perth Plaza - Route 30</field>
+  <field name="city">Amsterdam</field>
+  <field name="zip">12010</field>
+  <field name="lat">42.939</field>
+  <field name="lng">-74.1843</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">318</field>
+  <field name="cinema">Johnstown Movieplex</field>
+  <field name="street">Pyramid Mall - Route 30 A</field>
+  <field name="city">Johnstown</field>
+  <field name="zip">12095</field>
+  <field name="lat">43.0149</field>
+  <field name="lng">-74.3825</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">319</field>
+  <field name="cinema">Park Theatre - Cobleskill</field>
+  <field name="street">1 Park Place</field>
+  <field name="city">Cobleskill</field>
+  <field name="zip">12043</field>
+  <field name="lat">42.6777</field>
+  <field name="lng">-74.4854</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">320</field>
+  <field name="cinema">Southside Oneonta Mall</field>
+  <field name="street">Route 23 - South Side Mall</field>
+  <field name="city">Oneonta</field>
+  <field name="zip">13820</field>
+  <field name="lat">42.4634</field>
+  <field name="lng">-75.0482</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">321</field>
+  <field name="cinema">Lyceum Cinemas</field>
+  <field name="street">139 South Broadway</field>
+  <field name="city">Red Hook</field>
+  <field name="zip">12571</field>
+  <field name="lat">41.9879</field>
+  <field name="lng">-73.881</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">322</field>
+  <field name="cinema">Rotterdam Square Mall 6</field>
+  <field name="street">2 Campell Road</field>
+  <field name="city">Schenectady</field>
+  <field name="zip">12304</field>
+  <field name="lat">42.8062</field>
+  <field name="lng">-73.9917</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">323</field>
+  <field name="cinema">Crandell Theatre</field>
+  <field name="street">46-48 Main Street</field>
+  <field name="city">Chatham</field>
+  <field name="zip">12037</field>
+  <field name="lat">42.3625</field>
+  <field name="lng">-73.5962</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">324</field>
+  <field name="cinema">Spectrum 8 Theatres</field>
+  <field name="street">290 Delaware Avenue</field>
+  <field name="city">Albany</field>
+  <field name="zip">12209</field>
+  <field name="lat">42.643</field>
+  <field name="lng">-73.7768</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">325</field>
+  <field name="cinema">Fairview Cinema III</field>
+  <field name="street">Fairview Plaza and Route 9</field>
+  <field name="city">Hudson</field>
+  <field name="zip">12534</field>
+  <field name="lat">42.2837</field>
+  <field name="lng">-73.7554</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">326</field>
+  <field name="cinema">Reel Meals Dinner and a Movie</field>
+  <field name="street">86 Congress Plaza</field>
+  <field name="city">Saratoga Springs</field>
+  <field name="zip">12866</field>
+  <field name="lat">43.079</field>
+  <field name="lng">-73.773</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">327</field>
+  <field name="cinema">Malta Drive-In</field>
+  <field name="street">Route 9</field>
+  <field name="city">Malta</field>
+  <field name="zip">12020</field>
+  <field name="lat">42.939</field>
+  <field name="lng">-74.1843</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">328</field>
+  <field name="cinema">Aimie's Dinner &amp; Movie</field>
+  <field name="street">190 Glen Street</field>
+  <field name="city">Glens Falls</field>
+  <field name="zip">12801</field>
+  <field name="lat">43.3101</field>
+  <field name="lng">-73.6451</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">329</field>
+  <field name="cinema">Hollywood Drive-In</field>
+  <field name="street">9254 NY 66</field>
+  <field name="city">Averill Park</field>
+  <field name="zip">12018</field>
+  <field name="lat">42.6566</field>
+  <field name="lng">-73.5711</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">330</field>
+  <field name="cinema">Regal (Hoyts) Hudson Valley Mall Cinema</field>
+  <field name="street">1300 Ulster Avenue</field>
+  <field name="city">Kingston</field>
+  <field name="zip">12401</field>
+  <field name="lat">41.9665</field>
+  <field name="lng">-73.9905</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">331</field>
+  <field name="cinema">Regal (Hoyts) Crossgates Cinemas 18</field>
+  <field name="street">120 Washington Avenue</field>
+  <field name="city">Albany</field>
+  <field name="zip">12203</field>
+  <field name="lat">42.6541</field>
+  <field name="lng">-73.7589</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">332</field>
+  <field name="cinema">Upstate Films</field>
+  <field name="street">26 Montgomery Street - Route 9</field>
+  <field name="city">Rhinebeck</field>
+  <field name="zip">12572</field>
+  <field name="lat">41.927</field>
+  <field name="lng">-73.9129</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">333</field>
+  <field name="cinema">Regal (Hoyts) Latham Circle Cinemas 9</field>
+  <field name="street">Route 9</field>
+  <field name="city">Latham</field>
+  <field name="zip">12110</field>
+  <field name="lat">42.7511</field>
+  <field name="lng">-73.768</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">334</field>
+  <field name="cinema">Regal (Hoyts) Wilton Mall Cinema 8</field>
+  <field name="street">3065 Route 50</field>
+  <field name="city">Saratoga Springs</field>
+  <field name="zip">12866</field>
+  <field name="lat">43.1181</field>
+  <field name="lng">-73.7266</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">335</field>
+  <field name="cinema">Regal (Hoyts) East Greenbush Cinema 8</field>
+  <field name="street">279 Troy Road</field>
+  <field name="city">Rensselaer</field>
+  <field name="zip">12144</field>
+  <field name="lat">42.6346</field>
+  <field name="lng">-73.7013</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">336</field>
+  <field name="cinema">Regal (Hoyts) Clifton Park Center 8</field>
+  <field name="street">Clifton Country Mall Road</field>
+  <field name="city">Clifton Park</field>
+  <field name="zip">12065</field>
+  <field name="lat">42.8495</field>
+  <field name="lng">-73.7794</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">337</field>
+  <field name="cinema">Regal (Hoyts) Aviation Mall Cinemas 7</field>
+  <field name="street">Aviation Mall Road</field>
+  <field name="city">Queensbury</field>
+  <field name="zip">12804</field>
+  <field name="lat">43.3294</field>
+  <field name="lng">-73.6775</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">338</field>
+  <field name="cinema">Moviehouse Millerton</field>
+  <field name="street">Main St., Rt.44</field>
+  <field name="city">Millerton</field>
+  <field name="zip">12546</field>
+  <field name="lat">41.9549</field>
+  <field name="lng">-73.5004</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">339</field>
+  <field name="cinema">Regal (Hoyts) Binghamton Cinema 12</field>
+  <field name="street">900 Front Street</field>
+  <field name="city">Binghamton</field>
+  <field name="zip">13901</field>
+  <field name="lat">42.1338</field>
+  <field name="lng">-75.9055</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">340</field>
+  <field name="cinema">Hudson Movieplex</field>
+  <field name="street">350 Fairview Ave</field>
+  <field name="city">Hudson</field>
+  <field name="zip">12534</field>
+  <field name="lat">42.2837</field>
+  <field name="lng">-73.7554</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">341</field>
+  <field name="cinema">Jerico Drive-In</field>
+  <field name="street">Route 9 West</field>
+  <field name="city">Glenmont</field>
+  <field name="zip">12077</field>
+  <field name="lat">42.6249</field>
+  <field name="lng">-73.777</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">342</field>
+  <field name="cinema">Hi-Way Drive- In Theatre - Coxsackie</field>
+  <field name="street">Route 9W</field>
+  <field name="city">Coxsackie</field>
+  <field name="zip">12051</field>
+  <field name="lat">42.3113</field>
+  <field name="lng">-73.8501</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">343</field>
+  <field name="cinema">The Community Theatre - Catskill</field>
+  <field name="street">373 Main Street</field>
+  <field name="city">Catskill</field>
+  <field name="zip">12414</field>
+  <field name="lat">42.2189</field>
+  <field name="lng">-73.8655</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">344</field>
+  <field name="cinema">Bow Tie Cinemas Movieland</field>
+  <field name="street">400 State St</field>
+  <field name="city">Schenectady</field>
+  <field name="zip">12305</field>
+  <field name="lat">42.8132</field>
+  <field name="lng">-73.9427</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">345</field>
+  <field name="cinema">Regal (Hoyts) Galleria 12</field>
+  <field name="street">790 South Road in the Galleria Mall</field>
+  <field name="city">Poughkeepsie</field>
+  <field name="zip">12601</field>
+  <field name="lat">41.6595</field>
+  <field name="lng">-73.8773</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">346</field>
+  <field name="cinema">Regal (Hoyts) Fishkill Cinemas 10</field>
+  <field name="street">Route 9, in the Hudson Valley Outlet Center</field>
+  <field name="city">Fishkill</field>
+  <field name="zip">12524</field>
+  <field name="lat">41.5387</field>
+  <field name="lng">-73.899</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">347</field>
+  <field name="cinema">Callicoon Theatre</field>
+  <field name="street">Academy Street</field>
+  <field name="city">Callicoon</field>
+  <field name="zip">12723</field>
+  <field name="lat">41.7667</field>
+  <field name="lng">-75.0215</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">348</field>
+  <field name="cinema">Warwick 3 Drive-In</field>
+  <field name="street">Route 94 &amp; Warwick Turnpike</field>
+  <field name="city">Warwick</field>
+  <field name="zip">10990</field>
+  <field name="lat">41.2368</field>
+  <field name="lng">-74.3828</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">349</field>
+  <field name="cinema">Capra Cinemas</field>
+  <field name="street">93 West Front Street</field>
+  <field name="city">Hancock</field>
+  <field name="zip">13783</field>
+  <field name="lat">41.9554</field>
+  <field name="lng">-75.2914</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">350</field>
+  <field name="cinema">Hyde Park Drive-In</field>
+  <field name="street">592 Albany Post Road</field>
+  <field name="city">Hyde Park</field>
+  <field name="zip">12538</field>
+  <field name="lat">41.7857</field>
+  <field name="lng">-73.9335</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">351</field>
+  <field name="cinema">Roosevelt Cinemas</field>
+  <field name="street">Route 9</field>
+  <field name="city">Hyde Park</field>
+  <field name="zip">12538</field>
+  <field name="lat">41.7875</field>
+  <field name="lng">-73.9053</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">352</field>
+  <field name="cinema">Silver Cinemas South Hills</field>
+  <field name="street">1895 South Road, South Hills Mall</field>
+  <field name="city">Poughkeepsie</field>
+  <field name="zip">12601</field>
+  <field name="lat">41.6183</field>
+  <field name="lng">-73.9168</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">353</field>
+  <field name="cinema">Overlook Drive-In</field>
+  <field name="street">Degarmo Road</field>
+  <field name="city">Poughkeepsie</field>
+  <field name="zip">12538</field>
+  <field name="lat">41.6996</field>
+  <field name="lng">-73.8681</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">354</field>
+  <field name="cinema">Cinemark Movies 10</field>
+  <field name="street">2609 West Henrietta Rd</field>
+  <field name="city">Rochester</field>
+  <field name="zip">14623</field>
+  <field name="lat">43.101</field>
+  <field name="lng">-77.6297</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">355</field>
+  <field name="cinema">Cinemark Tinseltown USA</field>
+  <field name="street">2291 Buffalo Rd</field>
+  <field name="city">Westgate</field>
+  <field name="zip">14624</field>
+  <field name="lat">43.1468</field>
+  <field name="lng">-77.712</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">356</field>
+  <field name="cinema">Cinemark IMAX at Tinseltown USA - Gates</field>
+  <field name="street">2291 Buffalo Road</field>
+  <field name="city">Rochester</field>
+  <field name="zip">14624</field>
+  <field name="lat">43.1468</field>
+  <field name="lng">-77.712</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">357</field>
+  <field name="cinema">West Wayne Theatre</field>
+  <field name="street">Route 31 - West Wayne Plaza</field>
+  <field name="city">Macedon</field>
+  <field name="zip">14502</field>
+  <field name="lat">43.0912</field>
+  <field name="lng">-77.331</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">358</field>
+  <field name="cinema">Showplace 5</field>
+  <field name="street">Main and Union Streets</field>
+  <field name="city">Newark</field>
+  <field name="zip">14513</field>
+  <field name="lat">43.0466</field>
+  <field name="lng">-77.0952</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">359</field>
+  <field name="cinema">Canandaigua Theatres</field>
+  <field name="street">Wal-Mart Plaza</field>
+  <field name="city">Canandaigua</field>
+  <field name="zip">14424</field>
+  <field name="lat">42.853</field>
+  <field name="lng">-77.2971</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">360</field>
+  <field name="cinema">Geneseo Square Cinemas</field>
+  <field name="street">Route 20-A, Lakeville Rd</field>
+  <field name="city">Geneseo</field>
+  <field name="zip">14454</field>
+  <field name="lat">42.7942</field>
+  <field name="lng">-77.7807</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">361</field>
+  <field name="cinema">Geneva Movieplex</field>
+  <field name="street">Town and Country Plaza</field>
+  <field name="city">Geneva</field>
+  <field name="zip">14456</field>
+  <field name="lat">42.8557</field>
+  <field name="lng">-76.9879</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">362</field>
+  <field name="cinema">Little Theatres</field>
+  <field name="street">240 East Ave</field>
+  <field name="city">Rochester</field>
+  <field name="zip">14604</field>
+  <field name="lat">43.156</field>
+  <field name="lng">-77.5976</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">363</field>
+  <field name="cinema">Greece Ridge Cinema 12</field>
+  <field name="street">Route 104 - Greece Ridge Mall</field>
+  <field name="city">Rochester</field>
+  <field name="zip">14626</field>
+  <field name="lat">43.2138</field>
+  <field name="lng">-77.7051</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">364</field>
+  <field name="cinema">Regal Cinemas Henrietta Cinema 18</field>
+  <field name="street">525 Marketplace Dr</field>
+  <field name="city">Rochester</field>
+  <field name="zip">14623</field>
+  <field name="lat">43.0849</field>
+  <field name="lng">-77.625</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">365</field>
+  <field name="cinema">Regal Cinemas Eastview Mall 13</field>
+  <field name="street">70 Eastview Mall Dr</field>
+  <field name="city">Victor</field>
+  <field name="zip">14564</field>
+  <field name="lat">43.0318</field>
+  <field name="lng">-77.4415</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">366</field>
+  <field name="cinema">Regal Cinemas Culver Ridge Cinema 16</field>
+  <field name="street">2255 East Ridge</field>
+  <field name="city">Irondequoit</field>
+  <field name="zip">14622</field>
+  <field name="lat">43.2042</field>
+  <field name="lng">-77.5579</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">367</field>
+  <field name="cinema">Pittsford Plaza Cinema 6</field>
+  <field name="street">3349 Monroe Ave</field>
+  <field name="city">Pittsford</field>
+  <field name="zip">14534</field>
+  <field name="lat">43.1162</field>
+  <field name="lng">-77.5606</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">368</field>
+  <field name="cinema">AMC Loews Webster 12</field>
+  <field name="street">2190 Empire Blvd</field>
+  <field name="city">Webster</field>
+  <field name="zip">14580</field>
+  <field name="lat">43.2007</field>
+  <field name="lng">-77.4981</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">369</field>
+  <field name="cinema">New Angola Theatre</field>
+  <field name="street">72 North Main Street</field>
+  <field name="city">Angola</field>
+  <field name="zip">14006</field>
+  <field name="lat">42.6396</field>
+  <field name="lng">-79.0278</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">370</field>
+  <field name="cinema">AMC Theatres Maple Ridge 8</field>
+  <field name="street">4276 Maple Road at corner of Sweethome Road</field>
+  <field name="city">Amherst</field>
+  <field name="zip">14226</field>
+  <field name="lat">42.9698</field>
+  <field name="lng">-78.7973</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">371</field>
+  <field name="cinema">Dipson Theatres Mckinley Mall</field>
+  <field name="street">3701 Mckinley Parkway</field>
+  <field name="city">Blasdell</field>
+  <field name="zip">14219</field>
+  <field name="lat">42.7841</field>
+  <field name="lng">-78.8109</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">372</field>
+  <field name="cinema">Dunkirk Cinemas Corp Dunkirk 8</field>
+  <field name="street">10520 Bennet Road</field>
+  <field name="city">Dunkirk</field>
+  <field name="zip">14048</field>
+  <field name="lat">42.4525</field>
+  <field name="lng">-79.3092</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">373</field>
+  <field name="cinema">Screening Room Cinema &amp; Cafe</field>
+  <field name="street">3131 Sheridan Drive, northtown Plaza in Century Mall</field>
+  <field name="city">Amherst</field>
+  <field name="zip">14226</field>
+  <field name="lat">42.9698</field>
+  <field name="lng">-78.7973</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">374</field>
+  <field name="cinema">Flix Superplex</field>
+  <field name="street">4901 Transit Road at Williams Street</field>
+  <field name="city">Lancaster</field>
+  <field name="zip">14043</field>
+  <field name="lat">42.906</field>
+  <field name="lng">-78.7012</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">375</field>
+  <field name="cinema">Regal Cinemas Elmwood Center 15</field>
+  <field name="street">2001 Elmwood Avenue</field>
+  <field name="city">Buffalo</field>
+  <field name="zip">14207</field>
+  <field name="lat">42.9516</field>
+  <field name="lng">-78.8781</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">376</field>
+  <field name="cinema">Regal Cinemas Transit &amp; Wherle 16</field>
+  <field name="street">6707 Transit Road</field>
+  <field name="city">Williamsville</field>
+  <field name="zip">14221</field>
+  <field name="lat">42.9008</field>
+  <field name="lng">-78.6596</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">377</field>
+  <field name="cinema">Dipson Theatres North Park Theatre</field>
+  <field name="street">1428 Hertel Avenue</field>
+  <field name="city">Buffalo</field>
+  <field name="zip">14216</field>
+  <field name="lat">42.9479</field>
+  <field name="lng">-78.8551</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">378</field>
+  <field name="cinema">Dipson Theatres Amherst 3</field>
+  <field name="street">3500 Main Street</field>
+  <field name="city">Amherst</field>
+  <field name="zip">14226</field>
+  <field name="lat">42.9579</field>
+  <field name="lng">-78.8183</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">379</field>
+  <field name="cinema">Dipson Theatres Eastern Hills Cinema</field>
+  <field name="street">4545 Transit Road</field>
+  <field name="city">Williamsville</field>
+  <field name="zip">14221</field>
+  <field name="lat">42.9711</field>
+  <field name="lng">-78.6967</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">380</field>
+  <field name="cinema">Sunstar Theatres Lockport Mall Cinema 8</field>
+  <field name="street">5737 S Transit Road</field>
+  <field name="city">Lockport</field>
+  <field name="zip">14094</field>
+  <field name="lat">43.1614</field>
+  <field name="lng">-78.6876</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">381</field>
+  <field name="cinema">Regal Cinemas Hollywood 12</field>
+  <field name="street">720 Builders Square</field>
+  <field name="city">Niagara Falls</field>
+  <field name="zip">14304</field>
+  <field name="lat">43.0877</field>
+  <field name="lng">-78.9995</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">382</field>
+  <field name="cinema">Dipson Theatres Market Arcade Filmand Arts Center</field>
+  <field name="street">639 Main Street</field>
+  <field name="city">Buffalo</field>
+  <field name="zip">14203</field>
+  <field name="lat">42.8339</field>
+  <field name="lng">-78.7515</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">383</field>
+  <field name="cinema">Regal Cinemas Quaker Crossing Cinema 18</field>
+  <field name="street">3450 Amelia Drive</field>
+  <field name="city">Orchard Park</field>
+  <field name="zip">14127</field>
+  <field name="lat">42.7914</field>
+  <field name="lng">-78.782</field>
+  <field name="doctype">cinema</field>
+</doc>
+<doc>
+  <field name="id">384</field>
+  <field name="cinema">Dipson Theatres Batavia Cinema 1 &amp;2</field>
+  <field name="street">East Main Street</field>
+  <field name="city">Batavia</field>
+  <field name="zip">14020</field>
+  <field name="lat">43.0014</field>
+  <field name="lng">-78.1934</field>
+  <field name="doctype">cinema</field>
+</doc>
+</add>

@@ -1,0 +1,154 @@
+
+.Local Lucene
+====================
+Provide geographical based searching to lucene in an efficient manor
+Contents
+* Compiling from Source
+* Using local lucene
+
+Author: Patrick O'Leary
+email: pjaol@pjaol.com
+
+A white paper on local lucenes usage is available
+http://www.nsshutdown.com/projects/lucene/whitepaper/locallucene.htm
+
+
+====================
+Compiling from source
+====================
+
+The Most up to date version of local lucene and libaries is available from 
+http://sourceforge.net/projects/locallucene
+
+Requirements
+JSDK 1.5+
+Ant 1.5+
+
+The following files are required.
+
+OpenGIS 2 http://geotools.codehaus.org/  (LGPL)
+	gt2-referencing-2.3.1
+	geoapi-nogenerics-2.1
+
+Lucene 2 (Apache 2.0)
+	lucene-core-2.2
+
+Traverse Technologies Fulcurm com.traversetechnologies.fulcrum.math.LonLatTrig.java (LGPL)
+	http://www.traversetechnologies.com/
+
+All are also available from http://locallucene.svn.sourceforge.net/viewvc/locallucene/
+
+
+The default compile run's junit to do so run
+ant -lib lib/junit.jar
+
+You should see output similar to 
+pjaol:~/java_projects/personal/locallucene admin$ ant -lib lib/junit.jar 
+Buildfile: build.xml
+
+clean:
+
+depends:
+    [mkdir] Created dir: /Users/admin/java_projects/personal/locallucene/build
+    [mkdir] Created dir: /Users/admin/java_projects/personal/locallucene/dist
+
+compile:
+    [javac] Compiling 9 source files to /Users/admin/java_projects/personal/locallucene/build
+
+test:
+    [junit] Running com.pjaol.search.test.UnitTests.TestDistance
+    [junit] lat:[039888055075-039905434125] lng:[010252773908-010275126292]
+    [junit] Distance Filter filtered: 12
+    [junit] Results: 5
+    [junit] =============================
+    [junit] Name: McCormick &amp; Schmick's Seafood Restaurant, Distance :0.27090219604428784 -->0.27090219604428784
+    [junit] Name: Jimmy's Old Town Tavern, Distance :1.7830312857614126 -->1.7830312857614126
+    [junit] Name: Ned Devine's, Distance :3.491347894148351 -->3.491347894148351
+    [junit] Name: Alf Laylah Wa Laylah, Distance :4.658789488719062 -->4.658789488719062
+    [junit] Name: Old Brogue Irish Pub, Distance :5.019689759416986 -->5.019689759416986
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.581 sec
+
+jar:
+      [jar] Building jar: /Users/admin/java_projects/personal/locallucene/dist/locallucene.jar
+
+default:
+
+BUILD SUCCESSFUL
+Total time: 4 seconds
+============================
+
+Using local lucene
+==================
+
+A good example of using local lucene is in src/com/pjaol/search/test/UnitTests/TestDistance.java
+
+To begin with, the data has to be indexed, latitudes and longitudes
+have to be converted to positive padded strings in order to be used with lucene.
+By default lucene stores and searches Strings, so signed decimals have to be converted
+to representative strings.
+
+This is done by using DistanceUtils.latToString(double lat) & DistanceUtils.lngToString(double lng)
+e.g
+
+	private void addPoint(IndexWriter writer, String name, double lat, double lng) throws IOException{
+		
+		Document doc = new Document();
+		
+		doc.add(new Field("name", name,Field.Store.YES, Field.Index.TOKENIZED));
+		
+		// convert the lat / long to lucene fields
+		doc.add(new Field(latField, NumberUtils.double2sortableStr(lat),Field.Store.YES, Field.Index.UN_TOKENIZED));
+		doc.add(new Field(lngField, NumberUtils.double2sortableStr(lng),Field.Store.YES, Field.Index.UN_TOKENIZED));
+				
+		// add a default meta field to make searching all documents easy 
+		doc.add(new Field("metafile", "doc",Field.Store.YES, Field.Index.TOKENIZED));
+		writer.addDocument(doc);
+		
+	}
+
+Searching can now be performed by using Custom Serial Filter, DistanceFilter and DistanceQuery
+
+// reston va
+double lat = 38.967446; 
+double lng= -77.360499;
+double miles = 6.0;
+
+//create a distance query (used for boundary box search)
+DistanceQuery dq = new DistanceQuery(lat, lng, miles, latField, lngField);
+
+//create a distance filter (used for radial search)
+Filter filter = new DistanceFilter(lat, lng, miles, dq.latFilter, dq.lngFilter);
+		
+//Add these to a SerialChainFilter
+SerialChainFilter scf = new SerialChainFilter(new Filter[] {dq.latFilter, dq.lngFilter, filter} ,
+				new int[] {SerialChainFilter.AND,
+						   SerialChainFilter.AND,
+						   SerialChainFilter.SERIALAND});
+
+//Create a distance sort using the radial filter (distance calculations are done
+// in the radial filter, so use the output of that to drive the sort)
+DistanceSortSource dsort = new DistanceSortSource(filter);
+Sort sort = new Sort(new SortField("foo", dsort));
+
+//perform a reqular search
+Hits hits = searcher.search(somequery,scf, sort);
+
+A good example of usage is in TestDistance.testRange
+
+
+========================
+
+License
+========================
+ * Copyright 2007 Patrick O'Leary 
+ * Licensed under the Apache License, Version 2.0 (the "License"); 
+ * you may not use this file except in compliance with the License. 
+ * You may obtain a copy of the License at 
+ * 
+ * http://www.apache.org/licenses/LICENSE-2.0 
+ * Unless required by applicable law or agreed to in writing, 
+ * software distributed under the License is distributed on an 
+ * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, 
+ * either express or implied. See the License for the specific 
+ * language governing permissions and limitations under the License.
+ *

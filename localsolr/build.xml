@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<!-- ====================================================================== 
+     May 8, 2007 1:30:43 PM                                                        
+
+     locallucene    
+     Provide geographical based search services within lucene
+                   
+     Patrick O'Leary                                                                
+     ====================================================================== -->
+<project name="localsolr" default="default">
+    <description>
+            Provide geographical based search services within lucene
+    </description>
+
+	<property name="src.dir" value="src"/>
+	<property name="build.dir" value="build"/>
+	<property name="dist.dir" value="dist"/>
+	<property name="lib.dir" value="libs"/>
+	<property name="solr.dir" value="${lib.dir}/solr"/>
+	<property name="lucene.dir" value="${lib.dir}/lucene"/>
+	<property name="locallucene.dir" value="../locallucene/dist"/>
+	<path id="lib.path">
+
+		<fileset dir="${solr.dir}">
+   		 <include name="*.jar"/>
+   		</fileset>
+		<fileset dir="${lucene.dir}">
+		  <include name="*.jar"/>
+		</fileset>
+		<fileset dir="${locallucene.dir}">
+			<include name="*.jar"/>
+		</fileset>
+	</path>
+    <!-- ================================= 
+          target: default              
+         ================================= -->
+    <target name="default" depends="clean,compile,jar" description="--> Provide geographical based search services within lucene">
+        
+    </target>
+
+    <!-- - - - - - - - - - - - - - - - - - 
+          target: depends                      
+         - - - - - - - - - - - - - - - - - -->
+    <target name="depends">
+    	<mkdir dir="${build.dir}"/>
+    	<mkdir dir="${dist.dir}"/>
+    </target>
+
+	<target name="clean">
+		<delete dir="${build.dir}"/>
+		<delete dir="${dist.dir}"/>
+	</target>
+	
+	<!-- ================================= 
+          target: compile              
+         ================================= -->
+    <target name="compile" depends="depends" description="--> Compile local lucene sources">
+        <javac srcdir="${src.dir}"
+         destdir="${build.dir}"
+         classpathref="lib.path"
+         debug="on"/>
+    </target>
+	
+	<!-- - - - - - - - - - - - - - - - - - 
+          target: jar                      
+         - - - - - - - - - - - - - - - - - -->
+    <target name="jar">
+            <jar destfile="${dist.dir}/${ant.project.name}.jar" basedir="${build.dir}"/>
+    </target>
+
+
+
+
+</project>

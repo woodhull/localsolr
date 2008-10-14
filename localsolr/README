@@ -1,0 +1,99 @@
+$File: $
+LocalSolr is a port of locallucene to a solr implementation
+Supprt for radial searching, and sort by distance is provided
+
+Detail on usage are available from http://locallucene.wiki.sourceforge.net/
+
+
+LocalSolr uses a line of sight algorithm with cartesian plotting to perform
+quick geographical searching. This uses the latest locallucene functionality.
+
+There are 2 ways of getting localsolr
+
+Downloading the demo
+==========================
+
+Available from http://www.nsshutdown.com/solr-example.tgz (linked to the most
+recent demo)
+Details on using it are available 
+http://www.nsshutdown.com/blog/index.php?itemid=87
+
+Or
+
+Building from source
+======================
+Requires ant, jdk 1.5
+Solr from http://lucene.apache.org/solr/
+
+Compile locallucene from http://sourceforge.net/projects/locallucene/
+
+Solr & Lucene dependancies are available in the libs directory
+
+Run: ant -f build.xml
+
+This will create dist/localsolr.jar
+
+Using a standard solr build, drop locallucene.jar & localsolr.jar
+in the solr/lib directory.
+
+
+Configuring localsolr
+======================
+Ensure locallucene.jar and localsolr.jar are available in the solr/lib
+directory.
+
+
+Edit solr/conf/solrconfig.xml
+
+** Configure Indexer
+  <updateRequestProcessor>
+    <factory name="standard" class="solr.ChainedUpdateProcessorFactory" default="true">
+      <chain class="com.pjaol.search.solr.update.LocalUpdateProcessorFactory">
+        <str name="latField">lat</str>
+        <str name="lngField">lng</str>
+        <int name="startTier">9</int>
+        <int name="endTier">17</int>
+      </chain>
+      <chain class="solr.LogUpdateProcessorFactory" >
+       <!-- <int name="maxNumToLog">100</int> -->
+      </chain>
+      <chain class="solr.RunUpdateProcessorFactory" />
+    </factory>
+  </updateRequestProcessor>
+  
+** Configure the query handler (query template)
+<!-- local lucene request handler -->
+<searchComponent name="localsolr"     class="com.pjaol.search.solr.component.LocalSolrQueryComponent2" />
+<requestHandler name="geo" class="org.apache.solr.handler.component.SearchHandler">
+    <arr name="components">
+      <str>localsolr</str>
+      <str>facet</str>
+      <str>mlt</str>
+      <str>highlight</str>
+      <str>debug</str>
+    </arr>
+</requestHandler>  
+
+Edit solr/conf/schema.xml
+** Configure geographical fields
+<!-- local lucene field types -->
+   <field name="lat" type="sdouble" indexed="true" stored="true"/>
+   <field name="lng" type="sdouble" indexed="true" stored="true"/>
+   <dynamicField name="_local*" type="sdouble" indexed="true" stored="true"/>
+   
+ 
+ The _local* fields can be turned to stored="false" if you don't want
+ these generated fields to be displayed. Other wise you could potentially
+ use them to find density of results in an area.
+  
+ Making a request to localsolr
+ =============================
+ /solr/select?&qt=geo&lat=xx.xx&long=yy.yy&q=abc&radius=zz
+ 
+ qt query template configured in the solrconfig.xml in this example it's 'geo'
+ lat latitude in degrees
+ long longitude in degrees
+ q solr query
+ radius in miles.
+ 
+ 

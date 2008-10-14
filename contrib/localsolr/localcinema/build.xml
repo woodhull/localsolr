@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ====================================================================== 
+     Mar 11, 2008 9:30:05 PM                                                        
+
+     LocalSolrDemo    
+     demo UI for LocalSolr
+                   
+     pjaol                                                                
+     ====================================================================== -->
+<project name="LocalSolrDemo" default="default">
+    <description>
+            demo UI for LocalSolr
+    </description>
+
+	<property name="target.dir" value="target/localsolrdemo-1.0-SNAPSHOT/gwt/com.pjaol.localsolrdemo/"/>
+	<property name="dist.dir" value="target"/>
+    <!-- ================================= 
+          target: default              
+         ================================= -->
+    <target name="default" depends="createWar" description="--> demo UI for LocalSolr">
+        
+    </target>
+
+	<target name="createWar">
+		<war destfile="${dist.dir}/localcinema.war" webxml="web.xml">
+			<fileset dir="${target.dir}" id="id">
+    			<include name="*.*"/>
+			</fileset>
+		</war>
+		
+	</target>
+</project>

@@ -1,0 +1,95 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.pjaol</groupId>
+  <artifactId>localsolrdemo</artifactId>
+  <packaging>jar</packaging>
+  <version>1.0-SNAPSHOT</version>
+  <name>localsolrdemo</name>
+  <url>http://maven.apache.org</url>
+	
+	<pluginRepositories>
+		<pluginRepository>
+                        <id>repo-local</id>
+                        <url>file://${basedir}/libs</url>
+                </pluginRepository>
+		<pluginRepository>
+			<id>gwtforge</id>
+			<url>http://gwtforge.com/maven-repository/trunk/</url>
+		</pluginRepository>
+	</pluginRepositories>
+	<repositories>
+		<repository>
+			<id>repo-local</id>
+                        <url>file://${basedir}/libs</url>
+                </repository>
+
+		<repository>
+			<id>gwtforge</id>
+			<url>http://gwtforge.com/maven-repository/trunk/</url>
+		</repository>
+	</repositories>
+	
+	
+	<build>
+		<plugins>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<source>1.5</source>
+					<target>1.5</target>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>gwtforge.gwtplugin</groupId>
+				<artifactId>gwtforge.gwtplugin</artifactId>
+				<version>1.5-dev-27-01-2008</version>
+				<executions>
+					<execution>
+						<phase>compile</phase>
+						<goals>
+							<goal>compile</goal>
+						</goals>
+					</execution>
+				</executions>
+				<configuration>
+					<out>gwt</out>
+					<loglevel>INFO</loglevel>
+				</configuration>
+				<dependencies>
+					 <dependency>
+                       				<groupId>com.mapitz.gwt</groupId>
+                        			<artifactId>googlemaps_gwt</artifactId>
+                        			<version>2_2_1</version>
+                        
+                			</dependency>
+        			</dependencies>
+			</plugin>
+			 <plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-antrun-plugin</artifactId>
+            			<configuration>
+              				<tasks>
+              					<ant antfile="build.xml" target="default"/>
+					</tasks>
+            			</configuration>
+      			</plugin>
+		</plugins>
+	</build>
+	
+	<dependencies>
+	
+		<dependency>
+			<groupId>com.google.gwt</groupId>
+			<artifactId>gwt-servlet</artifactId>
+			<version>1.5-dev-27-01-2008</version>
+		</dependency>
+
+      		<dependency>
+			<groupId>com.mapitz.gwt</groupId>
+			<artifactId>googlemaps_gwt</artifactId>
+			<version>2_2_1</version>
+			<scope>compile</scope>
+		</dependency>        
+	</dependencies>
+</project>
